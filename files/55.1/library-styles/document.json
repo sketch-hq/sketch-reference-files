@@ -1,0 +1,76 @@
+{
+  "_class": "document",
+  "do_objectID": "F7B587E2-786A-4464-B54E-49CAB2220B03",
+  "assets": {
+    "_class": "assetCollection",
+    "colorAssets": [],
+    "gradientAssets": [],
+    "imageCollection": { "_class": "imageCollection", "images": {} },
+    "images": [],
+    "colors": [],
+    "gradients": []
+  },
+  "colorSpace": 0,
+  "currentPageIndex": 0,
+  "foreignLayerStyles": [
+    {
+      "_class": "MSImmutableForeignLayerStyle",
+      "libraryID": "0768A362-C107-4779-8F24-42B9610FB283",
+      "sourceLibraryName": "lib-44d0a6",
+      "symbolPrivate": false,
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "1A1F4012-7705-421C-A0D1-16A4120BDF40",
+        "name": "my shared style",
+        "value": {
+          "_class": "style",
+          "borders": [
+            {
+              "_class": "border",
+              "isEnabled": true,
+              "color": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0.592,
+                "green": 0.592,
+                "red": 0.592
+              },
+              "fillType": 0,
+              "position": 0,
+              "thickness": 1
+            }
+          ],
+          "endMarkerType": 0,
+          "fills": [
+            {
+              "_class": "fill",
+              "isEnabled": true,
+              "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 0, "red": 0 },
+              "fillType": 0,
+              "noiseIndex": 0,
+              "noiseIntensity": 0,
+              "patternFillType": 1,
+              "patternTileScale": 1
+            }
+          ],
+          "miterLimit": 10,
+          "startMarkerType": 0,
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "B853E048-5110-41F7-914D-A9DCA76C3CFE"
+    }
+  ],
+  "foreignSymbols": [],
+  "foreignTextStyles": [],
+  "layerStyles": { "_class": "sharedStyleContainer", "objects": [] },
+  "layerSymbols": { "_class": "symbolContainer", "objects": [] },
+  "layerTextStyles": { "_class": "sharedTextStyleContainer", "objects": [] },
+  "pages": [
+    {
+      "_class": "MSJSONFileReference",
+      "_ref_class": "MSImmutablePage",
+      "_ref": "pages/62C72E39-1992-4A15-B5AE-63564398CF9C"
+    }
+  ]
+}

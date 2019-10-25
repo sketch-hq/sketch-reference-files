@@ -1,0 +1,155 @@
+{
+  "_class": "document",
+  "do_objectID": "D0D0ECDB-C927-4B66-96BE-3C4D7D4C80CF",
+  "colorSpace": 0,
+  "currentPageIndex": 0,
+  "assets": {
+    "_class": "assetCollection",
+    "do_objectID": "4A77BC8C-C1A0-4A84-8BF7-0046AE3E2DB5",
+    "images": [],
+    "colorAssets": [],
+    "exportPresets": [],
+    "gradientAssets": [],
+    "imageCollection": { "_class": "imageCollection", "images": {} },
+    "colors": [],
+    "gradients": []
+  },
+  "foreignLayerStyles": [
+    {
+      "_class": "MSImmutableForeignLayerStyle",
+      "do_objectID": "710A31DA-AFDE-49EC-B89D-23433CC78752",
+      "libraryID": "105DD336-7120-4B0B-8541-BC130BF00401",
+      "sourceLibraryName": "lib-126d22",
+      "symbolPrivate": false,
+      "remoteStyleID": "B4CCFAFB-1204-431C-B3FE-3FF906430A43",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "C155C229-A77D-403C-B6EB-805FA8309A51",
+        "name": "my shared style",
+        "value": {
+          "_class": "style",
+          "do_objectID": "F09DE201-96FE-404F-9BF6-0A59EBD52401",
+          "endMarkerType": 0,
+          "miterLimit": 10,
+          "startMarkerType": 0,
+          "windingRule": 1,
+          "blur": {
+            "_class": "blur",
+            "isEnabled": false,
+            "center": "{0.5, 0.5}",
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "isEnabled": true,
+            "dashPattern": [],
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+            {
+              "_class": "border",
+              "isEnabled": true,
+              "fillType": 0,
+              "color": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0.592,
+                "green": 0.592,
+                "red": 0.592
+              },
+              "contextSettings": {
+                "_class": "graphicsContextSettings",
+                "blendMode": 0,
+                "opacity": 1
+              },
+              "gradient": {
+                "_class": "gradient",
+                "elipseLength": 0,
+                "from": "{0.5, 0}",
+                "gradientType": 0,
+                "to": "{0.5, 1}",
+                "stops": [
+                  {
+                    "_class": "gradientStop",
+                    "position": 0,
+                    "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                  },
+                  {
+                    "_class": "gradientStop",
+                    "position": 1,
+                    "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                  }
+                ]
+              },
+              "position": 0,
+              "thickness": 1
+            }
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "isEnabled": false,
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "saturation": 1
+          },
+          "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+          "fills": [
+            {
+              "_class": "fill",
+              "isEnabled": true,
+              "fillType": 0,
+              "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 0, "red": 0 },
+              "contextSettings": {
+                "_class": "graphicsContextSettings",
+                "blendMode": 0,
+                "opacity": 1
+              },
+              "gradient": {
+                "_class": "gradient",
+                "elipseLength": 0,
+                "from": "{0.5, 0}",
+                "gradientType": 0,
+                "to": "{0.5, 1}",
+                "stops": [
+                  {
+                    "_class": "gradientStop",
+                    "position": 0,
+                    "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                  },
+                  {
+                    "_class": "gradientStop",
+                    "position": 1,
+                    "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                  }
+                ]
+              },
+              "noiseIndex": 0,
+              "noiseIntensity": 0,
+              "patternFillType": 1,
+              "patternTileScale": 1
+            }
+          ],
+          "innerShadows": [],
+          "shadows": []
+        }
+      }
+    }
+  ],
+  "foreignSymbols": [],
+  "foreignTextStyles": [],
+  "layerStyles": { "_class": "sharedStyleContainer", "objects": [] },
+  "layerSymbols": { "_class": "symbolContainer", "objects": [] },
+  "layerTextStyles": { "_class": "sharedTextStyleContainer", "objects": [] },
+  "pages": [
+    {
+      "_class": "MSJSONFileReference",
+      "_ref_class": "MSImmutablePage",
+      "_ref": "pages/3BDEF6AB-F8E0-404C-A4E8-750E8AAD20D8"
+    }
+  ]
+}

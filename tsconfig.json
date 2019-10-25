@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

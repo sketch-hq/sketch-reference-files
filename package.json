@@ -1,0 +1,28 @@
+{
+  "name": "@sketch-hq/sketch-reference-files",
+  "description": "A store of automatically generated Sketch file JSON organised by feature and version",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "files",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "download-apps": "ts-node ./scripts/download-sketch-apps.ts",
+    "generate-files": "ts-node ./scripts/generate-ref-files.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "12.6.0",
+    "@types/node-fetch": "2.5.2",
+    "@types/semver": "6.0.2",
+    "node-fetch": "2.6.0",
+    "prettier": "1.18.2",
+    "semver": "6.3.0",
+    "ts-node": "8.4.1",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.9"
+  }
+}

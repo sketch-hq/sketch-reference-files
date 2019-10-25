@@ -1,0 +1,94 @@
+{
+  "_class": "page",
+  "do_objectID": "7644BDA1-D872-4D37-8A35-EB8F47E75E6A",
+  "booleanOperation": -1,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [],
+    "includedLayerIds": [],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 0,
+    "width": 0,
+    "x": 0,
+    "y": 0
+  },
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Page 1",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "clippingMaskMode": 0,
+  "hasClippingMask": false,
+  "style": {
+    "_class": "style",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
+  "hasClickThrough": true,
+  "layers": [
+    {
+      "_class": "symbolInstance",
+      "do_objectID": "E398DF6B-AC56-41C8-B2AE-54E5A9EDBF4B",
+      "booleanOperation": -1,
+      "exportOptions": {
+        "_class": "exportOptions",
+        "exportFormats": [],
+        "includedLayerIds": [],
+        "layerOptions": 0,
+        "shouldTrim": false
+      },
+      "frame": {
+        "_class": "rect",
+        "constrainProportions": false,
+        "height": 200,
+        "width": 200,
+        "x": 200,
+        "y": 0
+      },
+      "isFixedToViewport": false,
+      "isFlippedHorizontal": false,
+      "isFlippedVertical": false,
+      "isLocked": false,
+      "isVisible": true,
+      "layerListExpandedType": 0,
+      "name": "my symbol",
+      "nameIsFixed": false,
+      "resizingConstraint": 63,
+      "resizingType": 0,
+      "rotation": 0,
+      "shouldBreakMaskChain": false,
+      "clippingMaskMode": 0,
+      "hasClippingMask": false,
+      "style": {
+        "_class": "style",
+        "endMarkerType": 0,
+        "miterLimit": 10,
+        "startMarkerType": 0,
+        "windingRule": 1
+      },
+      "horizontalSpacing": 0,
+      "overrideValues": [],
+      "scale": 1,
+      "symbolID": "122E7E87-2D4C-46D6-AE11-D2133C13F083",
+      "verticalSpacing": 0
+    }
+  ],
+  "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+  "includeInCloudUpload": true,
+  "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
+}
