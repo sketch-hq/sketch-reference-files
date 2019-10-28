@@ -1,17 +1,16 @@
 import { readFileSync, writeFileSync } from 'fs'
+import semver from 'semver'
+import { execSync } from 'child_process'
 // @ts-ignore
 import replaceSection from 'markdown-replace-section'
 // @ts-ignore
 import mdTable from 'markdown-table'
+
+import { ReferenceFile } from '..'
 // @ts-ignore
 import files from '../dist'
-import semver from 'semver'
-import { execSync } from 'child_process'
-import { ReferenceFile } from '..'
 
 const updateReadme = async () => {
-  // const readme = readFileSync('./README.md', { encoding: 'utf8' })
-  // console.log(replaceSection(readme, 'Browse', 'Hello there'))
   const sketchVersions = Object.keys(files)
     .map(v => ({ original: v, coerced: semver.coerce(v) }))
     .filter(v => !!v.coerced)
