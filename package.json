@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "dist/index",
   "types": "dist/index",
+  "repository": "github:sketch-hq/sketch-reference-files",
   "files": [
     "files",
     "dist"
