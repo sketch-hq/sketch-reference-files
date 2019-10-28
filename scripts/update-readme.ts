@@ -3,9 +3,11 @@ import { readFileSync, writeFileSync } from 'fs'
 import replaceSection from 'markdown-replace-section'
 // @ts-ignore
 import mdTable from 'markdown-table'
+// @ts-ignore
 import files from '../dist'
 import semver from 'semver'
 import { execSync } from 'child_process'
+import { ReferenceFile } from '..'
 
 const updateReadme = async () => {
   // const readme = readFileSync('./README.md', { encoding: 'utf8' })
@@ -26,7 +28,7 @@ const updateReadme = async () => {
     })
   let content = ''
   sketchVersions.forEach(version => {
-    const features = files[version.original]
+    const features: ReferenceFile[] = files[version.original]
     const documentVersion = features[0].data.meta.version
     content += `### Sketch ${version.truncated} (document \`v${documentVersion}\`)\n\n`
     content += mdTable([
