@@ -30,15 +30,16 @@ const updateReadme = async () => {
   sketchVersions.forEach(version => {
     const features: ReferenceFile[] = files[version.original]
     const documentVersion = features[0].data.meta.version
+    const repoUrl = 'https://github.com/sketch-hq/sketch-reference-files'
     content += `### Sketch ${version.truncated} (document \`v${documentVersion}\`)\n\n`
     content += mdTable([
       ['Feature', '', '', '', ''],
       ...features.map(feature => [
         feature.name,
-        `[Document](./files/${version.original}/${feature.id}/document.json)`,
-        `[Page](./files/${version.original}/${feature.id}/pages/${feature.data.pages[0].do_objectID}.json)`,
-        `[Meta](./files/${version.original}/${feature.id}/meta.json)`,
-        `[User](./files/${version.original}/${feature.id}/user.json)`,
+        `[Document](${repoUrl}/blob/master/files/${version.original}/${feature.id}/document.json)`,
+        `[Page](${repoUrl}/blob/master/files/${version.original}/${feature.id}/pages/${feature.data.pages[0].do_objectID}.json)`,
+        `[Meta](${repoUrl}/blob/master/files/${version.original}/${feature.id}/meta.json)`,
+        `[User](${repoUrl}/blob/master/files/${version.original}/${feature.id}/user.json)`,
       ]),
     ])
     content += '\n\n'
