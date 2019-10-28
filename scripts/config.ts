@@ -7,13 +7,15 @@ export type Feature = {
   description: string // Human readable description
 }
 
-export type Config = Array<{
+export type ConfigItem = {
   version: string // Target Sketch version
-  build: string // Build ref
+  build: string // Sketch build ref (used for Sketch.app download)
   features: Feature[] // List of feature reference files that should be built
-}>
+}
 
-export const features: Feature[] = [
+export type Config = ConfigItem[]
+
+const features: Feature[] = [
   {
     id: 'empty',
     range: new Range('*'),
