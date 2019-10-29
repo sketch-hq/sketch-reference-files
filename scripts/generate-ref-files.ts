@@ -6,7 +6,8 @@ import { existsSync, mkdtempSync, writeFileSync } from 'fs'
 import { execSync } from 'child_process'
 import { tmpdir } from 'os'
 import { sep, resolve } from 'path'
-import { config } from './config'
+import { satisfies, coerce } from 'semver'
+import { versions, features } from './config'
 
 const exec = (command: string) => {
   try {
@@ -24,30 +25,32 @@ const generateRefFiles = async () => {
 
   exec(`mkdir -p ${filesDir}`)
 
-  // The config lists all the active Sketch versions we want to generate ref
-  // files for, so we loop over it
+  for (const { document, sketchVersions } of versions) {
+    const generator = [...sketchVersions].pop()
+    if (!generator) continue
+    const [sketchVersion] = generator
+    console.log(`Generating files for document version ${document} with Sketch ${sketchVersion}`)
+    const documentVersionDir = `${filesDir}/${document}`
+    const sketchtoolBin = `${sketchAppsDir}/${sketchVersion}/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool`
 
-  for (const { version, features } of config) {
-    console.log(`Sketch ${version}`)
-
-    const dir = `${filesDir}/${version}`
-    const sketchtoolBin = `${sketchAppsDir}/${version}/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool`
-
-    exec(`mkdir -p ${dir}`)
-
-    // For each feature build the reference files for it
+    exec(`mkdir -p ${documentVersionDir}`)
 
     for (const feature of features) {
-      const output = resolve(`${dir}/${feature.id}`)
+      const featureOutputDir = resolve(`${documentVersionDir}/${feature.id}`)
 
-      if (existsSync(output)) {
-        console.log(`  Skipping "${feature.id}" ref files, already exist`)
+      if (existsSync(featureOutputDir)) {
+        console.log(`  Skipping "${feature.id}", exists`)
         continue
       }
 
-      console.log(`  Building "${feature.id}" ref files`)
+      if (!satisfies(coerce(sketchVersion) || '', feature.range)) {
+        console.log(`  Skipping "${feature.id}", not compatible with generator`)
+        continue
+      }
 
-      exec(`mkdir -p ${output}`)
+      console.log(`  Generating "${feature.id}"`)
+
+      exec(`mkdir -p ${featureOutputDir}`)
 
       // Generate a temporary plugin to do the work and invoke it with
       // the sketchtool binary for the current Sketch version
@@ -58,7 +61,7 @@ const generateRefFiles = async () => {
       const script = `${feature.id}.js`
       exec(`mkdir -p ${pluginContents}`)
       const manifest = {
-        identifier: `com.reference-files.${version}.${feature.id}`,
+        identifier: `com.reference-files.${sketchVersion}.${feature.id}`,
         commands: [
           {
             script,
@@ -71,12 +74,13 @@ const generateRefFiles = async () => {
       }
       writeFileSync(`${pluginContents}/manifest.json`, JSON.stringify(manifest, null, 2))
       exec(`cp ${featuresDir}/${script} ${pluginContents}`)
-      const context = JSON.stringify({ savePath: output })
+      const context = JSON.stringify({ savePath: featureOutputDir })
       exec(`${sketchtoolBin} run ${plugin} ${feature.id} --context='${context}'`)
-      exec(`unzip ${output}/output.sketch -d ${output}`)
-      exec(`rm ${output}/*.sketch`)
-      exec(`rm -rf ${output}/previews`)
-      exec(`rm -rf ${output}/text-previews`)
+      exec(`unzip ${featureOutputDir}/output.sketch -d ${featureOutputDir}`)
+      exec(`rm ${featureOutputDir}/*.sketch`)
+      exec(`rm -rf ${featureOutputDir}/previews`)
+      exec(`rm -rf ${featureOutputDir}/images`)
+      exec(`rm -rf ${featureOutputDir}/text-previews`)
       exec(`rm -rf ${pluginDir}`)
     }
     // Sketch needs to be closed afterwards otherwise the sketchtools get

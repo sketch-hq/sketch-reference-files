@@ -1,0 +1,30 @@
+{
+  "commit": "1b735aa8f66d3e13f8900ae7c369f355f0eb2d3a",
+  "pagesAndArtboards": {
+    "33B181BA-3562-4B10-A83D-FF9C019BB038": {
+      "name": "Page 1",
+      "artboards": {
+        "9C5A2620-5949-4327-BCDA-72B38AC33FBC": { "name": "Artboard2" },
+        "93C73276-AE04-4943-8B95-D335A3175DDD": { "name": "Artboard1" }
+      }
+    }
+  },
+  "version": 118,
+  "fonts": ["Helvetica"],
+  "compatibilityVersion": 99,
+  "app": "com.bohemiancoding.sketch3",
+  "autosaved": 0,
+  "variant": "NONAPPSTORE",
+  "created": {
+    "commit": "1b735aa8f66d3e13f8900ae7c369f355f0eb2d3a",
+    "appVersion": "55.1",
+    "build": 78136,
+    "app": "com.bohemiancoding.sketch3",
+    "compatibilityVersion": 99,
+    "version": 118,
+    "variant": "NONAPPSTORE"
+  },
+  "saveHistory": ["NONAPPSTORE.78136"],
+  "appVersion": "55.1",
+  "build": 78136
+}

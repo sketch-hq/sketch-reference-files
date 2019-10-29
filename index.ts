@@ -5,9 +5,16 @@
  * @see https://webpack.js.org/guides/dependency-management/#context-module-api
  */
 
-import { config, ConfigItem, Feature } from './scripts/config'
+import { versions, features } from './scripts/config'
 
-const refFileJsonModules = require.context('./files', true, /\.json$/)
+const context = require.context('./files', true, /\.json$/)
+const paths = context.keys()
+
+export type ReferenceFileGroup = {
+  files: ReferenceFile[]
+  document: number
+  sketchVersions: string[]
+}
 
 export type ReferenceFile = {
   id: string
@@ -21,42 +28,44 @@ export type ReferenceFile = {
   }
 }
 
-export type ReferenceFiles = {
-  [sketchVersion: string]: ReferenceFile[]
+const data: ReferenceFileGroup[] = []
+
+for (const { document, sketchVersions } of versions) {
+  const group: ReferenceFileGroup = {
+    files: [],
+    document,
+    sketchVersions: sketchVersions.map(versionTuple => versionTuple[0]),
+  }
+
+  data.push(group)
+
+  for (const feature of features) {
+    const documentPath = `./${document}/${feature.id}/document.json`
+    const metaPath = `./${document}/${feature.id}/meta.json`
+    const pagesPath = `./${document}/${feature.id}/pages`
+    const userPath = `./${document}/${feature.id}/user.json`
+
+    const featureExists = !!paths.find(path => path === documentPath)
+
+    if (!featureExists) continue
+
+    const documentJson = context(documentPath)
+    const metaJson = context(metaPath)
+    const userJson = context(userPath)
+    const pagesJson = paths.filter(path => path.startsWith(pagesPath)).map(path => context(path))
+
+    group.files.push({
+      id: feature.id,
+      name: feature.name,
+      description: feature.description,
+      data: {
+        document: documentJson,
+        meta: metaJson,
+        user: userJson,
+        pages: pagesJson,
+      },
+    })
+  }
 }
 
-const files: ReferenceFiles = {}
-
-refFileJsonModules.keys().forEach(filepath => {
-  const [, version, featureId, ...rest] = filepath.split('/')
-  const configItem: ConfigItem | undefined = config.find(item => item.version === version)
-  if (!configItem) return
-  const feature: Feature | undefined = configItem.features.find(feature => feature.id === featureId)
-  if (!feature) return
-  if (!files[version]) {
-    files[version] = []
-  }
-
-  const refFile: any = files[version].find(file => file.id === feature.id) || {
-    id: feature.id,
-    name: feature.name,
-    description: feature.description,
-    data: {},
-  }
-
-  if (!files[version].find(file => file.id === feature.id)) {
-    files[version].push(refFile)
-  }
-
-  if (rest.length === 1) {
-    const [basename] = rest[0].split('.')
-    refFile.data[basename] = refFileJsonModules(filepath)
-  }
-
-  if (rest.length === 2 && rest[0] === 'pages') {
-    refFile.data.pages = refFile.data.pages || []
-    refFile.data.pages.push(refFileJsonModules(filepath))
-  }
-})
-
-export default files
+export default data

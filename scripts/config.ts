@@ -1,4 +1,4 @@
-import { Range, satisfies, coerce } from 'semver'
+import { Range } from 'semver'
 
 export type Feature = {
   id: string // Feature file name/id
@@ -7,15 +7,7 @@ export type Feature = {
   description: string // Human readable description
 }
 
-export type ConfigItem = {
-  version: string // Target Sketch version
-  build: string // Sketch build ref (used for Sketch.app download)
-  features: Feature[] // List of feature reference files that should be built
-}
-
-export type Config = ConfigItem[]
-
-const features: Feature[] = [
+export const features: Feature[] = [
   {
     id: 'empty',
     range: new Range('*'),
@@ -87,7 +79,7 @@ const features: Feature[] = [
   },
   {
     id: 'smart-layout',
-    range: new Range('>=58.0.0'), // Smart layout only available after Sketch 58
+    range: new Range('>=58.0.0'), // Smart layout only available from Sketch 58
     name: 'Smart layout',
     description: 'This document demonstrates symbols using smart layouts.',
   },
@@ -111,58 +103,40 @@ const features: Feature[] = [
   },
   {
     id: 'variable-font',
-    range: new Range('>=59.0.0'),
+    range: new Range('>=59.0.0'), // Variable fonts only available from Sketch 59
     name: 'Variable font',
     description: 'Sets values on a variable font',
   },
 ]
 
-export const config: Config = [
+export type VersionInfo = {
+  document: number // Document version
+  sketchVersions: [string, string][] // Tuple [sketchVersion, sketchBuild]
+}
+
+export const versions: VersionInfo[] = [
   {
-    version: '55',
-    build: '78076',
+    document: 118,
+    sketchVersions: [['55', '78076'], ['55.1', '78136']],
   },
   {
-    version: '55.1',
-    build: '78136',
+    document: 119,
+    sketchVersions: [
+      ['55.2', '78181'],
+      ['56', '81588'],
+      ['56.1', '81669'],
+      ['56.2', '81672'],
+      ['56.3', '81716'],
+      ['57', '83077'],
+      ['57.1', '83088'],
+    ],
   },
   {
-    version: '55.2',
-    build: '78181',
+    document: 120,
+    sketchVersions: [['58', '84663']],
   },
   {
-    version: '56',
-    build: '81588',
+    document: 121,
+    sketchVersions: [['59', '86127']],
   },
-  {
-    version: '56.1',
-    build: '81669',
-  },
-  {
-    version: '56.2',
-    build: '81672',
-  },
-  {
-    version: '56.3',
-    build: '81716',
-  },
-  {
-    version: '57',
-    build: '83077',
-  },
-  {
-    version: '57.1',
-    build: '83088',
-  },
-  {
-    version: '58',
-    build: '84663',
-  },
-  {
-    version: '59',
-    build: '86127',
-  },
-].map(configItem => ({
-  ...configItem,
-  features: features.filter(refFile => satisfies(coerce(configItem.version) || '', refFile.range)),
-}))
+]

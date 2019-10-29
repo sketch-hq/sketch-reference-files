@@ -1,0 +1,209 @@
+{
+  "_class": "page",
+  "do_objectID": "E5053D2B-2D84-4165-BE1B-61A5DF72F866",
+  "booleanOperation": -1,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [],
+    "includedLayerIds": [],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 0,
+    "width": 0,
+    "x": 0,
+    "y": 0
+  },
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Page 1",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "clippingMaskMode": 0,
+  "hasClippingMask": false,
+  "style": {
+    "_class": "style",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
+  "hasClickThrough": true,
+  "layers": [
+    {
+      "_class": "artboard",
+      "do_objectID": "5B3FDAFC-D6F8-46C0-A538-EE806FC3EA15",
+      "booleanOperation": -1,
+      "exportOptions": {
+        "_class": "exportOptions",
+        "exportFormats": [
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "jpg",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "png",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "tiff",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "eps",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "pdf",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "webp",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "svg",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 100,
+            "fileFormat": "jpg",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 0,
+            "visibleScaleType": 1
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "jpg",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 100,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 300,
+            "fileFormat": "jpg",
+            "name": "",
+            "namingScheme": 0,
+            "scale": 0,
+            "visibleScaleType": 2
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "jpg",
+            "name": "myPrefix",
+            "namingScheme": 1,
+            "scale": 2,
+            "visibleScaleType": 0
+          },
+          {
+            "_class": "exportFormat",
+            "absoluteSize": 0,
+            "fileFormat": "jpg",
+            "name": "mySuffix",
+            "namingScheme": 0,
+            "scale": 2,
+            "visibleScaleType": 0
+          }
+        ],
+        "includedLayerIds": [],
+        "layerOptions": 0,
+        "shouldTrim": false
+      },
+      "frame": {
+        "_class": "rect",
+        "constrainProportions": false,
+        "height": 200,
+        "width": 200,
+        "x": 0,
+        "y": 0
+      },
+      "isFixedToViewport": false,
+      "isFlippedHorizontal": false,
+      "isFlippedVertical": false,
+      "isLocked": false,
+      "isVisible": true,
+      "layerListExpandedType": 0,
+      "name": "MyArtboard",
+      "nameIsFixed": false,
+      "resizingConstraint": 63,
+      "resizingType": 0,
+      "rotation": 0,
+      "shouldBreakMaskChain": true,
+      "clippingMaskMode": 0,
+      "hasClippingMask": false,
+      "style": {
+        "_class": "style",
+        "endMarkerType": 0,
+        "miterLimit": 10,
+        "startMarkerType": 0,
+        "windingRule": 1
+      },
+      "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
+      "hasClickThrough": false,
+      "layers": [],
+      "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
+      "hasBackgroundColor": false,
+      "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+      "includeBackgroundColorInExport": true,
+      "includeInCloudUpload": true,
+      "isFlowHome": false,
+      "resizesContent": false,
+      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
+    }
+  ],
+  "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+  "includeInCloudUpload": true,
+  "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
+}

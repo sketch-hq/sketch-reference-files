@@ -13,10 +13,10 @@
   "scripts": {
     "download-apps": "ts-node ./scripts/download-sketch-apps.ts",
     "generate-files": "ts-node ./scripts/generate-ref-files.ts",
-    "build": "rm -rf dist && yarn webpack && rm -rf dist/scripts",
+    "build": "yarn webpack && rm -rf dist/scripts",
     "update-readme": "ts-node ./scripts/update-readme.ts",
     "release": "HUSKY_SKIP_HOOKS=1 standard-version --no-verify",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn update-readme"
   },
   "config": {
     "commitizen": {
@@ -30,7 +30,7 @@
   },
   "standard-version": {
     "scripts": {
-      "prerelease": "yarn build && yarn update-readme"
+      "prerelease": "yarn build"
     }
   },
   "dependencies": {},

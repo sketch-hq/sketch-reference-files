@@ -1,48 +1,41 @@
-import { readFileSync, writeFileSync } from 'fs'
-import semver from 'semver'
+/**
+ * Dynamically update the "Browse" tables of the readme.
+ */
+
+import { readFileSync, writeFileSync, existsSync } from 'fs'
 import { execSync } from 'child_process'
 // @ts-ignore
 import replaceSection from 'markdown-replace-section'
 // @ts-ignore
 import mdTable from 'markdown-table'
-
-import { ReferenceFile } from '..'
-// @ts-ignore
-import files from '../dist'
+import pkg from '../package.json'
+import { versions, features } from './config'
 
 const updateReadme = async () => {
-  const sketchVersions = Object.keys(files)
-    .map(v => ({ original: v, coerced: semver.coerce(v) }))
-    .filter(v => !!v.coerced)
-    .sort((a, b) => semver.compare(b.coerced!.version, a.coerced!.version))
-    .map(v => {
-      const truncated = v.original.split('.')
-      while (truncated.slice(-1)[0] === '0') {
-        truncated.pop()
-      }
-      return {
-        ...v,
-        truncated: truncated.join('.'),
-      }
-    })
   let content = ''
-  sketchVersions.forEach(version => {
-    const features: ReferenceFile[] = files[version.original]
-    const documentVersion = features[0].data.meta.version
-    const repoUrl = 'https://github.com/sketch-hq/sketch-reference-files'
-    content += `### Sketch ${version.truncated} (document \`v${documentVersion}\`)\n\n`
+  for (const { document, sketchVersions } of versions) {
+    content += `### Document ${document}\n\n`
+    content += `> Sketch versions: ${sketchVersions
+      .map(versionTuple => versionTuple[0])
+      .join(', ')}\n\n`
+    const repoUri = `https://github.com/sketch-hq/sketch-reference-files/tree/v${pkg.version}/files`
     content += mdTable([
-      ['Feature', '', '', '', ''],
-      ...features.map(feature => [
-        feature.name,
-        `[Document](${repoUrl}/blob/master/files/${version.original}/${feature.id}/document.json)`,
-        `[Page](${repoUrl}/blob/master/files/${version.original}/${feature.id}/pages/${feature.data.pages[0].do_objectID}.json)`,
-        `[Meta](${repoUrl}/blob/master/files/${version.original}/${feature.id}/meta.json)`,
-        `[User](${repoUrl}/blob/master/files/${version.original}/${feature.id}/user.json)`,
-      ]),
+      ['Feature', 'Document', 'Pages', 'Meta', 'User'],
+      ...features.map(feature => {
+        const exists = existsSync(`./files/${document}/${feature.id}`)
+        return exists
+          ? [
+              feature.name,
+              `[🔗](${repoUri}/${document}/${feature.id}/document.json)`,
+              `[🔗](${repoUri}/${document}/${feature.id}/pages)`,
+              `[🔗](${repoUri}/${document}/${feature.id}/meta.json)`,
+              `[🔗](${repoUri}/${document}/${feature.id}/user.json)`,
+            ]
+          : [feature.name, '-', '-', '-', '-']
+      }),
     ])
     content += '\n\n'
-  })
+  }
   const readme = readFileSync('./README.md', { encoding: 'utf8' })
   writeFileSync('./README.md', replaceSection(readme, 'Browse', content))
   execSync(`yarn prettier --write ./README.md`, { encoding: 'utf8' })
