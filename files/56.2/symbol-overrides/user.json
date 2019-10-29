@@ -1,4 +1,7 @@
 {
   "document": { "pageListHeight": 85, "pageListCollapsed": 0 },
-  "C3D54FA4-7DFD-42DA-A7A4-49C8C45D502B": { "scrollOrigin": "{0, 0}", "zoomValue": 1 }
+  "C3D54FA4-7DFD-42DA-A7A4-49C8C45D502B": {
+    "scrollOrigin": "{0, 0}",
+    "zoomValue": 1
+  }
 }

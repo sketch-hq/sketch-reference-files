@@ -1,7 +1,10 @@
 {
   "commit": "1b735aa8f66d3e13f8900ae7c369f355f0eb2d3a",
   "pagesAndArtboards": {
-    "CCE1EDAF-8995-490D-B011-D996AF420117": { "name": "Page 1", "artboards": {} }
+    "CCE1EDAF-8995-490D-B011-D996AF420117": {
+      "name": "Page 1",
+      "artboards": {}
+    }
   },
   "version": 118,
   "fonts": [],

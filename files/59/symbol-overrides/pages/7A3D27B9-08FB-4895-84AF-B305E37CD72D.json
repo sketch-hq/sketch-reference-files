@@ -64,7 +64,11 @@
       "hue": 0,
       "saturation": 1
     },
-    "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
     "fills": [],
     "innerShadows": [],
     "shadows": []
@@ -138,7 +142,11 @@
           "hue": 0,
           "saturation": 1
         },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "contextSettings": {
+          "_class": "graphicsContextSettings",
+          "blendMode": 0,
+          "opacity": 1
+        },
         "fills": [],
         "innerShadows": [],
         "shadows": []
@@ -277,7 +285,13 @@
       "isFlowHome": false,
       "presetDictionary": {},
       "resizesContent": false,
-      "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
+      "backgroundColor": {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 1,
+        "green": 1,
+        "red": 1
+      },
       "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
       "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
       "includeBackgroundColorInInstance": true,
@@ -352,7 +366,11 @@
           "hue": 0,
           "saturation": 1
         },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "contextSettings": {
+          "_class": "graphicsContextSettings",
+          "blendMode": 0,
+          "opacity": 1
+        },
         "fills": [],
         "innerShadows": [],
         "shadows": []

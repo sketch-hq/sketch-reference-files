@@ -3,7 +3,9 @@
   "pagesAndArtboards": {
     "5CF3B37E-9759-4B3C-9048-966626E84564": {
       "name": "Page 1",
-      "artboards": { "0483CCB0-166B-4732-977F-9F54665F7913": { "name": "MySymbol" } }
+      "artboards": {
+        "0483CCB0-166B-4732-977F-9F54665F7913": { "name": "MySymbol" }
+      }
     }
   },
   "version": 119,

@@ -1,3 +1,5 @@
+// TODO: Use SketchAPI to do this when ready
+
 var sketch = require('sketch')
 var Document = require('sketch').Document
 var Rectangle = require('sketch/dom').Rectangle

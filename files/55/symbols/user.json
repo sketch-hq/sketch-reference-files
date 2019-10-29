@@ -1,4 +1,7 @@
 {
   "document": { "pageListHeight": 85, "pageListCollapsed": 0 },
-  "0347FF79-264E-45FC-B815-01BB8FABE578": { "scrollOrigin": "{0, 0}", "zoomValue": 1 }
+  "0347FF79-264E-45FC-B815-01BB8FABE578": {
+    "scrollOrigin": "{0, 0}",
+    "zoomValue": 1
+  }
 }

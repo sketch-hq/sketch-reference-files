@@ -3,7 +3,9 @@
   "pagesAndArtboards": {
     "AAFA6543-CC89-42FE-B527-A55AFBEBA3EA": {
       "name": "Page 1",
-      "artboards": { "E113DA37-0F2E-4701-A30D-38A817128FDF": { "name": "artboard" } }
+      "artboards": {
+        "E113DA37-0F2E-4701-A30D-38A817128FDF": { "name": "artboard" }
+      }
     }
   },
   "version": 118,

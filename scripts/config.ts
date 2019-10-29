@@ -91,6 +91,30 @@ const features: Feature[] = [
     name: 'Smart layout',
     description: 'This document demonstrates symbols using smart layouts.',
   },
+  {
+    id: 'blur',
+    range: new Range('*'),
+    name: 'Blur',
+    description: 'Applies a blur to a layer',
+  },
+  {
+    id: 'slice',
+    range: new Range('*'),
+    name: 'Slice',
+    description: 'Creates a slice layer',
+  },
+  {
+    id: 'export-formats',
+    range: new Range('*'),
+    name: 'Export formats',
+    description: 'Applies export formats to an artboard',
+  },
+  {
+    id: 'variable-font',
+    range: new Range('>=59.0.0'),
+    name: 'Variable font',
+    description: 'Sets values on a variable font',
+  },
 ]
 
 export const config: Config = [

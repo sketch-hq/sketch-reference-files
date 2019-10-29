@@ -10,7 +10,7 @@ import { config } from './config'
 
 const exec = (command: string) => {
   try {
-    console.log(execSync(command, { encoding: 'utf8' }))
+    execSync(command, { encoding: 'utf8' })
   } catch (err) {
     console.error(command)
     throw 'Build failed, stopping'
@@ -33,20 +33,20 @@ const generateRefFiles = async () => {
     const dir = `${filesDir}/${version}`
     const sketchtoolBin = `${sketchAppsDir}/${version}/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool`
 
-    const exists = existsSync(dir)
-    if (exists) {
-      console.log('  Skip, already present')
-      continue
-    }
-
     exec(`mkdir -p ${dir}`)
 
     // For each feature build the reference files for it
 
     for (const feature of features) {
+      const output = resolve(`${dir}/${feature.id}`)
+
+      if (existsSync(output)) {
+        console.log(`  Skipping "${feature.id}" ref files, already exist`)
+        continue
+      }
+
       console.log(`  Building "${feature.id}" ref files`)
 
-      const output = resolve(`${dir}/${feature.id}`)
       exec(`mkdir -p ${output}`)
 
       // Generate a temporary plugin to do the work and invoke it with

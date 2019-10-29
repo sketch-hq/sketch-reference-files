@@ -63,7 +63,11 @@
       "hue": 0,
       "saturation": 1
     },
-    "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
     "fills": [],
     "innerShadows": [],
     "shadows": []
@@ -136,7 +140,11 @@
           "hue": 0,
           "saturation": 1
         },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "contextSettings": {
+          "_class": "graphicsContextSettings",
+          "blendMode": 0,
+          "opacity": 1
+        },
         "fills": [],
         "innerShadows": [],
         "shadows": [],
@@ -155,7 +163,11 @@
               "_class": "fontDescriptor",
               "attributes": { "name": "Arial-BoldMT", "size": 28 }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3, "paragraphSpacing": 3 },
+            "paragraphStyle": {
+              "_class": "paragraphStyle",
+              "alignment": 3,
+              "paragraphSpacing": 3
+            },
             "kerning": 16
           },
           "verticalAlignment": 0
@@ -263,7 +275,11 @@
           "hue": 0,
           "saturation": 1
         },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "contextSettings": {
+          "_class": "graphicsContextSettings",
+          "blendMode": 0,
+          "opacity": 1
+        },
         "fills": [],
         "innerShadows": [],
         "shadows": [],
@@ -282,7 +298,11 @@
               "_class": "fontDescriptor",
               "attributes": { "name": "TimesNewRomanPSMT", "size": 16 }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3, "paragraphSpacing": 3 },
+            "paragraphStyle": {
+              "_class": "paragraphStyle",
+              "alignment": 3,
+              "paragraphSpacing": 3
+            },
             "kerning": 16
           },
           "verticalAlignment": 0

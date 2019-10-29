@@ -64,7 +64,11 @@
       "hue": 0,
       "saturation": 1
     },
-    "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
     "fills": [],
     "innerShadows": [],
     "shadows": []
@@ -138,13 +142,23 @@
           "hue": 0,
           "saturation": 1
         },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "contextSettings": {
+          "_class": "graphicsContextSettings",
+          "blendMode": 0,
+          "opacity": 1
+        },
         "fills": [
           {
             "_class": "fill",
             "isEnabled": true,
             "fillType": 0,
-            "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 1, "red": 0 },
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0,
+              "green": 1,
+              "red": 0
+            },
             "contextSettings": {
               "_class": "graphicsContextSettings",
               "blendMode": 0,
@@ -160,12 +174,24 @@
                 {
                   "_class": "gradientStop",
                   "position": 0,
-                  "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  }
                 },
                 {
                   "_class": "gradientStop",
                   "position": 1,
-                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  }
                 }
               ]
             },

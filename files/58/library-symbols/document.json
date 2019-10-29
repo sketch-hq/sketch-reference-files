@@ -85,7 +85,11 @@
             "hue": 0,
             "saturation": 1
           },
-          "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
           "fills": [],
           "innerShadows": [],
           "shadows": []
@@ -176,12 +180,24 @@
                       {
                         "_class": "gradientStop",
                         "position": 0,
-                        "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 1,
+                          "green": 1,
+                          "red": 1
+                        }
                       },
                       {
                         "_class": "gradientStop",
                         "position": 1,
-                        "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 0,
+                          "green": 0,
+                          "red": 0
+                        }
                       }
                     ]
                   },
@@ -207,7 +223,13 @@
                   "_class": "fill",
                   "isEnabled": true,
                   "fillType": 0,
-                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 },
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
                   "contextSettings": {
                     "_class": "graphicsContextSettings",
                     "blendMode": 0,
@@ -223,12 +245,24 @@
                       {
                         "_class": "gradientStop",
                         "position": 0,
-                        "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 1,
+                          "green": 1,
+                          "red": 1
+                        }
                       },
                       {
                         "_class": "gradientStop",
                         "position": 1,
-                        "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 0,
+                          "green": 0,
+                          "red": 0
+                        }
                       }
                     ]
                   },
@@ -377,8 +411,18 @@
         "isFlowHome": false,
         "presetDictionary": {},
         "resizesContent": false,
-        "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
-        "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+        "backgroundColor": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        },
+        "horizontalRulerData": {
+          "_class": "rulerData",
+          "base": 0,
+          "guides": []
+        },
         "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
         "includeBackgroundColorInInstance": true,
         "symbolID": "D95E2353-9712-42F1-A243-45F70F0B3CAE",
@@ -451,7 +495,11 @@
             "hue": 0,
             "saturation": 1
           },
-          "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
           "fills": [],
           "innerShadows": [],
           "shadows": []
@@ -542,12 +590,24 @@
                       {
                         "_class": "gradientStop",
                         "position": 0,
-                        "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 1,
+                          "green": 1,
+                          "red": 1
+                        }
                       },
                       {
                         "_class": "gradientStop",
                         "position": 1,
-                        "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 0,
+                          "green": 0,
+                          "red": 0
+                        }
                       }
                     ]
                   },
@@ -573,7 +633,13 @@
                   "_class": "fill",
                   "isEnabled": true,
                   "fillType": 0,
-                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 },
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
                   "contextSettings": {
                     "_class": "graphicsContextSettings",
                     "blendMode": 0,
@@ -589,12 +655,24 @@
                       {
                         "_class": "gradientStop",
                         "position": 0,
-                        "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 1,
+                          "green": 1,
+                          "red": 1
+                        }
                       },
                       {
                         "_class": "gradientStop",
                         "position": 1,
-                        "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                        "color": {
+                          "_class": "color",
+                          "alpha": 1,
+                          "blue": 0,
+                          "green": 0,
+                          "red": 0
+                        }
                       }
                     ]
                   },
@@ -743,8 +821,18 @@
         "isFlowHome": false,
         "presetDictionary": {},
         "resizesContent": false,
-        "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
-        "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+        "backgroundColor": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        },
+        "horizontalRulerData": {
+          "_class": "rulerData",
+          "base": 0,
+          "guides": []
+        },
         "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
         "includeBackgroundColorInInstance": true,
         "symbolID": "59432AAA-1A2F-42F3-BDFF-E9D3E4D5F24C",

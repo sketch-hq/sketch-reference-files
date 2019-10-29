@@ -94,7 +94,11 @@
               "_class": "fontDescriptor",
               "attributes": { "name": "Arial-BoldMT", "size": 28 }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3, "paragraphSpacing": 3 },
+            "paragraphStyle": {
+              "_class": "paragraphStyle",
+              "alignment": 3,
+              "paragraphSpacing": 3
+            },
             "kerning": 16
           },
           "verticalAlignment": 0
@@ -191,7 +195,11 @@
               "_class": "fontDescriptor",
               "attributes": { "name": "TimesNewRomanPSMT", "size": 16 }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3, "paragraphSpacing": 3 },
+            "paragraphStyle": {
+              "_class": "paragraphStyle",
+              "alignment": 3,
+              "paragraphSpacing": 3
+            },
             "kerning": 16
           },
           "verticalAlignment": 0

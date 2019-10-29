@@ -1,7 +1,10 @@
 {
   "commit": "28aa9394d73601e0bb5985b1b3cc160717057319",
   "pagesAndArtboards": {
-    "48CCD24F-A727-4009-903F-F7010E30590B": { "name": "Page 1", "artboards": {} }
+    "48CCD24F-A727-4009-903F-F7010E30590B": {
+      "name": "Page 1",
+      "artboards": {}
+    }
   },
   "version": 119,
   "fonts": [],
