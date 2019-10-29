@@ -1,6 +1,6 @@
 # sketch-reference-files
 
-> A store of automatically generated Sketch file JSON organised by feature and version.
+> A store of automatically generated Sketch file JSON organised by document version and Sketch feature.
 
 ## Overview
 
@@ -32,23 +32,27 @@ npm install @sketch-hq/sketch-reference-files
 import files from '@sketch-hq/sketch-reference-files'
 ```
 
-The default export has the type signature:
+The module exports reference file metadata and json contents for each supported document `version`.
 
-```typescript
-type ReferenceFiles = {
-  [sketchVersion: string]: Array<{
-    id: string
-    name: string
-    description: string
-    data: {
-      document: any
-      meta: any
-      user: any
-      pages: any[]
-    }
-  }>
-}
 ```
+[
+  {
+    document: 118,
+    sketchVersions: ['55', '55.1'],
+    files: [
+      { id, name, description, data },
+      ...
+    ],
+  },
+  ...
+]
+```
+
+### HTTP
+
+The raw reference file JSON can be accessed over HTTP via predicable urls:
+
+- https://unpkg.com/browse/@sketch-hq/sketch-reference-files@latest/files/
 
 ## Scripts
 

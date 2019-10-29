@@ -1,6 +1,6 @@
 {
   "name": "@sketch-hq/sketch-reference-files",
-  "description": "A store of automatically generated Sketch file JSON organised by feature and version",
+  "description": "A store of automatically generated Sketch file JSON organised by document version and Sketch feature",
   "version": "1.2.0",
   "main": "dist/index",
   "types": "dist/index",
