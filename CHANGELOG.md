@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/sketch-hq/sketch-reference-files/compare/v1.2.0...v2.0.0) (2019-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* Module export has changed structure
+
+### Features
+
+* rework to organise by document version rather than sketch version ([00e1fa5](https://github.com/sketch-hq/sketch-reference-files/commit/00e1fa5bd844b63d2bbfa0f0eb3745b09960a260))
+
 ## [1.2.0](https://github.com/sketch-hq/sketch-reference-files/compare/v1.1.0...v1.2.0) (2019-10-29)
 
 
