@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const { Document, Shape, Rectangle, Style } = require('sketch')
 
 function main(ctx) {

@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const { Document, Shape, Rectangle, Style, Image } = require('sketch')
 
 function main(ctx) {
@@ -26,6 +24,6 @@ function main(ctx) {
     },
     function() {
       doc.close()
-    }
+    },
   )
 }

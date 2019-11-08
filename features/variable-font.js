@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 // Note: Requires https://github.com/arrowtype/recursive font to be installed
 
 // TODO: Use SketchAPI to do this when ready

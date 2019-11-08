@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const { Document, Rectangle, Style, ShapePath } = require('sketch')
 
 function main(ctx) {
@@ -8,9 +6,7 @@ function main(ctx) {
   const page = doc.selectedPage
 
   // Add a shape path layer to the page
-  const shapePath = ShapePath.fromSVGPath(
-    'M 100 300 Q 150 50 200 300 Q 250 550 300 300'
-  )
+  const shapePath = ShapePath.fromSVGPath('M 100 300 Q 150 50 200 300 Q 250 550 300 300')
   shapePath.parent = page
   shapePath.frame = new Rectangle(0, 0, 200, 250)
   shapePath.style = {
@@ -26,6 +22,6 @@ function main(ctx) {
     },
     function() {
       doc.close()
-    }
+    },
   )
 }

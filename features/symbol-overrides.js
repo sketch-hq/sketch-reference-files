@@ -1,13 +1,4 @@
-/* eslint-disable */
-
-const {
-  Document,
-  Artboard,
-  Text,
-  Rectangle,
-  Style,
-  SymbolMaster,
-} = require('sketch')
+const { Document, Artboard, Text, Rectangle, Style, SymbolMaster } = require('sketch')
 
 function main(ctx) {
   // Create a new document, and get a reference to its selected page
@@ -51,6 +42,6 @@ function main(ctx) {
     },
     function() {
       doc.close()
-    }
+    },
   )
 }

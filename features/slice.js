@@ -1,14 +1,4 @@
-/* eslint-disable */
-
-const {
-  Document,
-  Artboard,
-  Shape,
-  Rectangle,
-  Style,
-  Text,
-  Slice,
-} = require('sketch')
+const { Document, Artboard, Shape, Rectangle, Style, Text, Slice } = require('sketch')
 
 function main(ctx) {
   // Create a new document, and get a reference to its selected page

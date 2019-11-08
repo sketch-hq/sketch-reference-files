@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const {
   Document,
   Artboard,
@@ -26,9 +24,7 @@ function main(ctx) {
 
   // Create a random library filename to avoid Sketch caching the generated
   // library on consecutive plugin runs
-  const libName = `lib-${Math.floor(Math.random() * 16777215).toString(
-    16
-  )}.sketch`
+  const libName = `lib-${Math.floor(Math.random() * 16777215).toString(16)}.sketch`
 
   // Save and close
   libDoc.save(
@@ -45,12 +41,8 @@ function main(ctx) {
       const page = doc.selectedPage
 
       // Add the library, and import the shared style
-      const lib = Library.getLibraryForDocumentAtPath(
-        `${ctx.savePath}/${libName}`
-      )
-      const sharedStyle = lib
-        .getImportableLayerStyleReferencesForDocument(doc)[0]
-        .import()
+      const lib = Library.getLibraryForDocumentAtPath(`${ctx.savePath}/${libName}`)
+      const sharedStyle = lib.getImportableLayerStyleReferencesForDocument(doc)[0].import()
 
       // Apply _and_ link the shared style to a shape
       const shape = new Shape({
@@ -69,8 +61,8 @@ function main(ctx) {
         },
         function() {
           doc.close()
-        }
+        },
       )
-    }
+    },
   )
 }
