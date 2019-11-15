@@ -13,7 +13,7 @@ import { versions, features } from './config'
 
 const updateReadme = async () => {
   let content = ''
-  for (const { document, sketchVersions } of versions) {
+  for (const { document, sketchVersions } of [...versions].reverse()) {
     content += `### Document ${document}\n\n`
     content += `> Sketch versions: ${sketchVersions
       .map(versionTuple => versionTuple[0])
