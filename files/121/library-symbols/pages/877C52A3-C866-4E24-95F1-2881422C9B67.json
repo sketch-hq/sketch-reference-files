@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "53A88212-777A-4B0A-B8F4-86B9301DF15E",
+  "do_objectID": "877C52A3-C866-4E24-95F1-2881422C9B67",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "2A1D8161-7219-4E89-9677-C626FF8D50A3",
+    "do_objectID": "B70D28E8-3C8D-4412-B56C-D15F13070EE1",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -74,7 +74,7 @@
   "layers": [
     {
       "_class": "symbolInstance",
-      "do_objectID": "E4DE7DE1-DA5D-4307-9D92-405426142FD8",
+      "do_objectID": "498FAE9B-85CC-4522-9E3F-D235CC731D4E",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -108,7 +108,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "D7B7A990-144C-4C57-920E-111AC05F3241",
+        "do_objectID": "50A5DBE8-3924-4AB7-8E44-C8D2763A3CAD",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -145,7 +145,7 @@
       },
       "horizontalSpacing": 0,
       "scale": 1,
-      "symbolID": "A3F780D0-67CB-4C35-98DD-69865ECA5449",
+      "symbolID": "9E82F64D-527F-43E2-BDCB-F0F318D82929",
       "verticalSpacing": 0,
       "overrideValues": []
     }

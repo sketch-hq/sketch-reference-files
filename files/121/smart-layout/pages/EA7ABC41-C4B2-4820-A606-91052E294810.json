@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "FCCAC1F7-8B94-467D-A25B-D2F8DEAAB2C0",
+  "do_objectID": "EA7ABC41-C4B2-4820-A606-91052E294810",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "F2D2E17D-0CFA-46F3-B20F-BC7924F5FE89",
+    "do_objectID": "514A55C1-59FD-45D6-AA53-2DB5D09CC499",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -74,7 +74,7 @@
   "layers": [
     {
       "_class": "symbolMaster",
-      "do_objectID": "8D12F715-2EB8-4366-B645-43D841383263",
+      "do_objectID": "E23D5BA8-93A8-450E-9610-838F727094B6",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -108,7 +108,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "E6710CF9-0068-400B-B81B-8993A009CD1A",
+        "do_objectID": "A7AFCC61-901C-4CB9-8228-9D942232E77D",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -148,7 +148,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "do_objectID": "F3728360-544E-4C42-9BF0-78C121149BD6",
+          "do_objectID": "3CB27C16-D638-4CE1-AFC6-D8B4348BDE96",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -182,7 +182,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "A6DA29BF-1622-4514-8AB0-AE42B984366E",
+            "do_objectID": "125A7A7D-6272-44D6-B87C-F47DE855DE19",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,
@@ -306,7 +306,7 @@
           "layers": [
             {
               "_class": "rectangle",
-              "do_objectID": "A46CD2C7-3655-4B92-BB08-90E4F9410C73",
+              "do_objectID": "2DB9E9E3-77A9-4303-867E-BB5A7F9F840E",
               "booleanOperation": -1,
               "isFixedToViewport": false,
               "isFlippedHorizontal": false,
@@ -340,7 +340,7 @@
               "hasClippingMask": false,
               "style": {
                 "_class": "style",
-                "do_objectID": "2EB32407-B100-4452-98A6-2B848115DF53",
+                "do_objectID": "F695F557-33B1-4107-BB68-B9860A7EC915",
                 "endMarkerType": 0,
                 "miterLimit": 10,
                 "startMarkerType": 0,
@@ -430,7 +430,7 @@
             },
             {
               "_class": "text",
-              "do_objectID": "7992B9B0-8A21-454D-A835-D0C4FADBE178",
+              "do_objectID": "0F2AB7D3-1CA0-4132-9EC3-800A2BEF36FE",
               "booleanOperation": -1,
               "isFixedToViewport": false,
               "isFlippedHorizontal": false,
@@ -464,7 +464,7 @@
               "hasClippingMask": false,
               "style": {
                 "_class": "style",
-                "do_objectID": "E9F792AB-BA12-4C76-B4C5-36FA4B53C9AD",
+                "do_objectID": "34DBC3BA-642A-4237-8767-A3E1A7597C99",
                 "endMarkerType": 0,
                 "miterLimit": 10,
                 "startMarkerType": 0,
@@ -566,7 +566,7 @@
                     },
                     "MSAttributedStringFontAttribute": {
                       "_class": "fontDescriptor",
-                      "attributes": { "name": "Roboto-Regular", "size": 21 }
+                      "attributes": { "name": "Roboto-Regular", "size": 14 }
                     }
                   },
                   "verticalAlignment": 0
@@ -584,7 +584,7 @@
                       "textStyleVerticalAlignmentKey": 0,
                       "MSAttributedStringFontAttribute": {
                         "_class": "fontDescriptor",
-                        "attributes": { "name": "Roboto-Regular", "size": 21 }
+                        "attributes": { "name": "Roboto-Regular", "size": 14 }
                       },
                       "MSAttributedStringColorAttribute": {
                         "_class": "color",
@@ -599,7 +599,7 @@
               },
               "automaticallyDrawOnUnderlyingPath": false,
               "dontSynchroniseWithSymbol": false,
-              "glyphBounds": "{{1, 3}, {47, 17}}",
+              "glyphBounds": "{{1, 2}, {31, 12}}",
               "lineSpacingBehaviour": 2,
               "textBehaviour": 0
             }
@@ -617,7 +617,7 @@
       "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
       "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
       "includeBackgroundColorInInstance": true,
-      "symbolID": "B18CE75C-5F8F-4001-995C-14BBDA32DFD4",
+      "symbolID": "CE36A592-628F-4390-AF1B-00CD82E23B56",
       "changeIdentifier": 7,
       "overrideProperties": [],
       "allowsOverrides": true

@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "71856A0E-5FB0-4063-BFF0-76DA3DD08CE3",
+  "do_objectID": "700687F3-0D61-4855-9F9F-E7F59BEB0606",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "11E5F68D-125E-4DA9-907D-89B225BE234C",
+    "do_objectID": "4D9F0580-8AB6-41FD-9861-5C6DF3706CC3",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,22 +73,22 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "shapeGroup",
-      "do_objectID": "7D650CED-990B-4C6D-8502-B50C7F6532B8",
+      "_class": "symbolMaster",
+      "do_objectID": "FAD3CB58-EE72-4135-A15D-DA67F2C1E24A",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 1,
+      "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "shape",
+      "name": "MySymbol",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
-      "shouldBreakMaskChain": false,
+      "shouldBreakMaskChain": true,
       "exportOptions": {
         "_class": "exportOptions",
         "includedLayerIds": [],
@@ -106,10 +106,9 @@
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
-      "sharedStyleID": "F0989033-9580-4284-BAAE-6D1048BDB399",
       "style": {
         "_class": "style",
-        "do_objectID": "55E1C999-9720-4F7A-B9F3-EC30BF8EC7BD",
+        "do_objectID": "CFB1729E-7F47-4C3B-91D7-F33FBC1B4DF9",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -130,40 +129,7 @@
           "lineCapStyle": 0,
           "lineJoinStyle": 0
         },
-        "borders": [
-          {
-            "_class": "border",
-            "isEnabled": true,
-            "fillType": 0,
-            "color": { "_class": "color", "alpha": 1, "blue": 0.592, "green": 0.592, "red": 0.592 },
-            "contextSettings": {
-              "_class": "graphicsContextSettings",
-              "blendMode": 0,
-              "opacity": 1
-            },
-            "gradient": {
-              "_class": "gradient",
-              "elipseLength": 0,
-              "from": "{0.5, 0}",
-              "gradientType": 0,
-              "to": "{0.5, 1}",
-              "stops": [
-                {
-                  "_class": "gradientStop",
-                  "position": 0,
-                  "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
-                },
-                {
-                  "_class": "gradientStop",
-                  "position": 1,
-                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
-                }
-              ]
-            },
-            "position": 0,
-            "thickness": 1
-          }
-        ],
+        "borders": [],
         "colorControls": {
           "_class": "colorControls",
           "isEnabled": false,
@@ -173,51 +139,16 @@
           "saturation": 1
         },
         "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
-        "fills": [
-          {
-            "_class": "fill",
-            "isEnabled": true,
-            "fillType": 0,
-            "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 0, "red": 0 },
-            "contextSettings": {
-              "_class": "graphicsContextSettings",
-              "blendMode": 0,
-              "opacity": 1
-            },
-            "gradient": {
-              "_class": "gradient",
-              "elipseLength": 0,
-              "from": "{0.5, 0}",
-              "gradientType": 0,
-              "to": "{0.5, 1}",
-              "stops": [
-                {
-                  "_class": "gradientStop",
-                  "position": 0,
-                  "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
-                },
-                {
-                  "_class": "gradientStop",
-                  "position": 1,
-                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
-                }
-              ]
-            },
-            "noiseIndex": 0,
-            "noiseIntensity": 0,
-            "patternFillType": 1,
-            "patternTileScale": 1
-          }
-        ],
+        "fills": [],
         "innerShadows": [],
         "shadows": []
       },
-      "hasClickThrough": false,
+      "hasClickThrough": true,
       "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
       "layers": [
         {
-          "_class": "rectangle",
-          "do_objectID": "1B62AA54-963C-48CF-A3A2-F39EED4C6263",
+          "_class": "text",
+          "do_objectID": "A8B3F626-2432-428E-874E-5B788213A41C",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -226,9 +157,9 @@
           "isVisible": true,
           "layerListExpandedType": 0,
           "maintainScrollPosition": false,
-          "name": "Rectangle",
+          "name": "Label",
           "nameIsFixed": false,
-          "resizingConstraint": 63,
+          "resizingConstraint": 47,
           "resizingType": 0,
           "rotation": 0,
           "shouldBreakMaskChain": false,
@@ -242,8 +173,8 @@
           "frame": {
             "_class": "rect",
             "constrainProportions": false,
-            "height": 200,
-            "width": 200,
+            "height": 31,
+            "width": 74,
             "x": 0,
             "y": 0
           },
@@ -251,7 +182,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "DB62F523-9C2E-439B-81B0-0EDFB6A1C4CE",
+            "do_objectID": "7E80CA0A-E811-43A7-A882-ADFCA7C1CE4C",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,
@@ -288,59 +219,155 @@
             },
             "fills": [],
             "innerShadows": [],
-            "shadows": []
-          },
-          "edited": false,
-          "isClosed": true,
-          "pointRadiusBehaviour": 1,
-          "points": [
-            {
-              "_class": "curvePoint",
-              "cornerRadius": 0,
-              "curveFrom": "{0, 0}",
-              "curveMode": 1,
-              "curveTo": "{0, 0}",
-              "hasCurveFrom": false,
-              "hasCurveTo": false,
-              "point": "{0, 0}"
-            },
-            {
-              "_class": "curvePoint",
-              "cornerRadius": 0,
-              "curveFrom": "{1, 0}",
-              "curveMode": 1,
-              "curveTo": "{1, 0}",
-              "hasCurveFrom": false,
-              "hasCurveTo": false,
-              "point": "{1, 0}"
-            },
-            {
-              "_class": "curvePoint",
-              "cornerRadius": 0,
-              "curveFrom": "{1, 1}",
-              "curveMode": 1,
-              "curveTo": "{1, 1}",
-              "hasCurveFrom": false,
-              "hasCurveTo": false,
-              "point": "{1, 1}"
-            },
-            {
-              "_class": "curvePoint",
-              "cornerRadius": 0,
-              "curveFrom": "{0, 1}",
-              "curveMode": 1,
-              "curveTo": "{0, 1}",
-              "hasCurveFrom": false,
-              "hasCurveTo": false,
-              "point": "{0, 1}"
+            "shadows": [],
+            "textStyle": {
+              "_class": "textStyle",
+              "encodedAttributes": {
+                "textStyleVerticalAlignmentKey": 0,
+                "MSAttributedStringColorAttribute": {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0,
+                  "green": 0,
+                  "red": 1
+                },
+                "MSAttributedStringFontAttribute": {
+                  "_class": "fontDescriptor",
+                  "attributes": { "name": "Arial-BoldMT", "size": 28 }
+                }
+              },
+              "verticalAlignment": 0
             }
-          ],
-          "fixedRadius": 0,
-          "needsConvertionToNewRoundCorners": false,
-          "hasConvertedToNewRoundCorners": true
+          },
+          "attributedString": {
+            "_class": "attributedString",
+            "string": "Label",
+            "attributes": [
+              {
+                "_class": "stringAttribute",
+                "location": 0,
+                "length": 5,
+                "attributes": {
+                  "textStyleVerticalAlignmentKey": 0,
+                  "MSAttributedStringFontAttribute": {
+                    "_class": "fontDescriptor",
+                    "attributes": { "name": "Arial-BoldMT", "size": 28 }
+                  },
+                  "MSAttributedStringColorAttribute": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 1
+                  }
+                }
+              }
+            ]
+          },
+          "automaticallyDrawOnUnderlyingPath": false,
+          "dontSynchroniseWithSymbol": false,
+          "glyphBounds": "{{2, 4}, {70, 22}}",
+          "lineSpacingBehaviour": 2,
+          "textBehaviour": 0
         }
       ],
-      "windingRule": 1
+      "hasBackgroundColor": false,
+      "includeBackgroundColorInExport": true,
+      "includeInCloudUpload": true,
+      "isFlowHome": false,
+      "presetDictionary": {},
+      "resizesContent": false,
+      "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
+      "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+      "includeBackgroundColorInInstance": true,
+      "symbolID": "4D54873F-F99E-4956-9F81-1691C50A9BD3",
+      "changeIdentifier": 6,
+      "overrideProperties": [],
+      "allowsOverrides": true
+    },
+    {
+      "_class": "symbolInstance",
+      "do_objectID": "9A4D5D44-D702-4DA5-801C-08EB507CE522",
+      "booleanOperation": -1,
+      "isFixedToViewport": false,
+      "isFlippedHorizontal": false,
+      "isFlippedVertical": false,
+      "isLocked": false,
+      "isVisible": true,
+      "layerListExpandedType": 0,
+      "maintainScrollPosition": false,
+      "name": "MySymbol",
+      "nameIsFixed": false,
+      "resizingConstraint": 63,
+      "resizingType": 0,
+      "rotation": 0,
+      "shouldBreakMaskChain": false,
+      "exportOptions": {
+        "_class": "exportOptions",
+        "includedLayerIds": [],
+        "layerOptions": 0,
+        "shouldTrim": false,
+        "exportFormats": []
+      },
+      "frame": {
+        "_class": "rect",
+        "constrainProportions": false,
+        "height": 200,
+        "width": 200,
+        "x": 200,
+        "y": 0
+      },
+      "clippingMaskMode": 0,
+      "hasClippingMask": false,
+      "style": {
+        "_class": "style",
+        "do_objectID": "864F7D45-2A7B-462B-A6B1-6D8A8E86FE00",
+        "endMarkerType": 0,
+        "miterLimit": 10,
+        "startMarkerType": 0,
+        "windingRule": 1,
+        "blur": {
+          "_class": "blur",
+          "isEnabled": false,
+          "center": "{0.5, 0.5}",
+          "motionAngle": 0,
+          "radius": 10,
+          "saturation": 1,
+          "type": 0
+        },
+        "borderOptions": {
+          "_class": "borderOptions",
+          "isEnabled": true,
+          "dashPattern": [],
+          "lineCapStyle": 0,
+          "lineJoinStyle": 0
+        },
+        "borders": [],
+        "colorControls": {
+          "_class": "colorControls",
+          "isEnabled": false,
+          "brightness": 0,
+          "contrast": 1,
+          "hue": 0,
+          "saturation": 1
+        },
+        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "fills": [],
+        "innerShadows": [],
+        "shadows": []
+      },
+      "horizontalSpacing": 0,
+      "scale": 1,
+      "symbolID": "4D54873F-F99E-4956-9F81-1691C50A9BD3",
+      "verticalSpacing": 0,
+      "overrideValues": [
+        {
+          "_class": "overrideValue",
+          "overrideName": "A8B3F626-2432-428E-874E-5B788213A41C_stringValue",
+          "value": "Custom label"
+        }
+      ]
     }
   ],
   "includeInCloudUpload": true,

@@ -1,11 +1,11 @@
 {
-  "commit": "4a0b8e173d74b7bf054eccaa58372f0a1d5afb52",
+  "commit": "3a5bc985037168b405adaa195c6ccffd69b968a3",
   "pagesAndArtboards": {
-    "FCCAC1F7-8B94-467D-A25B-D2F8DEAAB2C0": {
+    "EA7ABC41-C4B2-4820-A606-91052E294810": {
       "name": "Symbols",
-      "artboards": { "8D12F715-2EB8-4366-B645-43D841383263": { "name": "artboard" } }
+      "artboards": { "E23D5BA8-93A8-450E-9610-838F727094B6": { "name": "artboard" } }
     },
-    "590C4835-B5DE-4EA6-B5AA-018839B78236": { "name": "Page 1", "artboards": {} }
+    "BAE8DF23-C257-479E-BE2F-23D050FEC0BB": { "name": "Page 1", "artboards": {} }
   },
   "version": 121,
   "fonts": ["Roboto-Regular"],
@@ -14,15 +14,15 @@
   "autosaved": 0,
   "variant": "NONAPPSTORE",
   "created": {
-    "commit": "4a0b8e173d74b7bf054eccaa58372f0a1d5afb52",
-    "appVersion": "59",
-    "build": 86127,
+    "commit": "3a5bc985037168b405adaa195c6ccffd69b968a3",
+    "appVersion": "60",
+    "build": 88103,
     "app": "com.bohemiancoding.sketch3",
     "compatibilityVersion": 99,
     "version": 121,
     "variant": "NONAPPSTORE"
   },
-  "saveHistory": ["NONAPPSTORE.86127"],
-  "appVersion": "59",
-  "build": 86127
+  "saveHistory": ["NONAPPSTORE.88103"],
+  "appVersion": "60",
+  "build": 88103
 }

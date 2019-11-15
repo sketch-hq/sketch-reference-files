@@ -1,11 +1,11 @@
 {
   "_class": "document",
-  "do_objectID": "9736C180-D368-476B-9D0E-B4E97CF6EF74",
+  "do_objectID": "36A2E2D0-35ED-4B69-954A-17DB12561695",
   "colorSpace": 0,
   "currentPageIndex": 0,
   "assets": {
     "_class": "assetCollection",
-    "do_objectID": "3BCA909B-8A96-4E71-B235-C9315A01DC43",
+    "do_objectID": "E97F156C-3F41-42BF-B446-06CF08CA2CB2",
     "images": [],
     "colorAssets": [],
     "exportPresets": [],
@@ -24,12 +24,12 @@
     {
       "_class": "MSJSONFileReference",
       "_ref_class": "MSImmutablePage",
-      "_ref": "pages/590C4835-B5DE-4EA6-B5AA-018839B78236"
+      "_ref": "pages/BAE8DF23-C257-479E-BE2F-23D050FEC0BB"
     },
     {
       "_class": "MSJSONFileReference",
       "_ref_class": "MSImmutablePage",
-      "_ref": "pages/FCCAC1F7-8B94-467D-A25B-D2F8DEAAB2C0"
+      "_ref": "pages/EA7ABC41-C4B2-4820-A606-91052E294810"
     }
   ]
 }
