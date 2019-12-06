@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "877C52A3-C866-4E24-95F1-2881422C9B67",
+  "do_objectID": "6A433E28-EC41-4B3B-BF21-FE943008FD55",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "B70D28E8-3C8D-4412-B56C-D15F13070EE1",
+    "do_objectID": "AF44BA66-2FB2-40B4-8667-5BF2B286E96E",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,8 +73,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "symbolInstance",
-      "do_objectID": "498FAE9B-85CC-4522-9E3F-D235CC731D4E",
+      "_class": "bitmap",
+      "do_objectID": "DE53550B-5705-46B1-9B9C-D06CF30726EB",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -83,7 +83,7 @@
       "isVisible": true,
       "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "my symbol",
+      "name": "MyImage",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
@@ -99,16 +99,16 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 200,
+        "height": 181,
         "width": 200,
-        "x": 200,
+        "x": 0,
         "y": 0
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "50A5DBE8-3924-4AB7-8E44-C8D2763A3CAD",
+        "do_objectID": "0A32D8C8-780A-4B34-9398-07DAB44D7816",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -143,11 +143,14 @@
         "innerShadows": [],
         "shadows": []
       },
-      "horizontalSpacing": 0,
-      "scale": 1,
-      "symbolID": "9E82F64D-527F-43E2-BDCB-F0F318D82929",
-      "verticalSpacing": 0,
-      "overrideValues": []
+      "clippingMask": "{{0, 0}, {1, 1}}",
+      "fillReplacesImage": false,
+      "image": {
+        "_class": "MSJSONFileReference",
+        "_ref_class": "MSImageData",
+        "_ref": "images/5e66bb5eef61a7941be4a04626356fcd1a3a1742.png"
+      },
+      "intendedDPI": 0
     }
   ],
   "includeInCloudUpload": true,

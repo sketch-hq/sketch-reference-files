@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "8F771108-350A-41BF-85D7-BB13D0AC6C14",
+  "do_objectID": "A3638F05-5762-42DF-8879-A6004F1E878F",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "3ED110F3-2293-49B1-BCEB-793979EF20E6",
+    "do_objectID": "A782253A-2DA6-415F-9A04-874D56DD6ED0",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -74,7 +74,7 @@
   "layers": [
     {
       "_class": "text",
-      "do_objectID": "FF3FF27E-5D8F-4C49-BC1F-C46ABFBDAD75",
+      "do_objectID": "7BCB7B80-0474-4CD8-BC70-B0BBC7CEB35C",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -83,7 +83,7 @@
       "isVisible": true,
       "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "Headline",
+      "name": "Text",
       "nameIsFixed": false,
       "resizingConstraint": 47,
       "resizingType": 0,
@@ -99,8 +99,8 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 31,
-        "width": 117,
+        "height": 34,
+        "width": 63,
         "x": 0,
         "y": 0
       },
@@ -108,7 +108,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "041612EC-1683-46AB-81B9-C3A296C7E0C9",
+        "do_objectID": "9641694E-1B74-4962-9EDF-F178AE6A6625",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -129,7 +129,40 @@
           "lineCapStyle": 0,
           "lineJoinStyle": 0
         },
-        "borders": [],
+        "borders": [
+          {
+            "_class": "border",
+            "isEnabled": true,
+            "fillType": 0,
+            "color": { "_class": "color", "alpha": 1, "blue": 0.592, "green": 0.592, "red": 0.592 },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "to": "{0.5, 1}",
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "position": 0,
+                  "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                },
+                {
+                  "_class": "gradientStop",
+                  "position": 1,
+                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                }
+              ]
+            },
+            "position": 0,
+            "thickness": 1
+          }
+        ],
         "colorControls": {
           "_class": "colorControls",
           "isEnabled": false,
@@ -149,13 +182,17 @@
             "MSAttributedStringColorAttribute": {
               "_class": "color",
               "alpha": 1,
-              "blue": 1,
-              "green": 1,
-              "red": 1
+              "blue": 0.1103057591642918,
+              "green": 0.1103057591642918,
+              "red": 0.8377490942028986
             },
             "MSAttributedStringFontAttribute": {
               "_class": "fontDescriptor",
-              "attributes": { "name": "Arial-BoldMT", "size": 28 }
+              "attributes": {
+                "size": 28,
+                "variation": { "1128354636": 1, "2003265652": 1000, "1936486004": -15 },
+                "name": "RecursiveBeta_1_022-SansLinearA_Sans-Casual-Medium"
+              }
             }
           },
           "verticalAlignment": 0
@@ -163,24 +200,28 @@
       },
       "attributedString": {
         "_class": "attributedString",
-        "string": "Headline",
+        "string": "Text",
         "attributes": [
           {
             "_class": "stringAttribute",
             "location": 0,
-            "length": 8,
+            "length": 4,
             "attributes": {
               "textStyleVerticalAlignmentKey": 0,
               "MSAttributedStringFontAttribute": {
                 "_class": "fontDescriptor",
-                "attributes": { "name": "Arial-BoldMT", "size": 28 }
+                "attributes": {
+                  "size": 28,
+                  "variation": { "1128354636": 1, "2003265652": 1000, "1936486004": -15 },
+                  "name": "RecursiveBeta_1_022-SansLinearA_Sans-Casual-Medium"
+                }
               },
               "MSAttributedStringColorAttribute": {
                 "_class": "color",
                 "alpha": 1,
-                "blue": 1,
-                "green": 1,
-                "red": 1
+                "blue": 0.1103057591642918,
+                "green": 0.1103057591642918,
+                "red": 0.8377490942028986
               }
             }
           }
@@ -188,129 +229,9 @@
       },
       "automaticallyDrawOnUnderlyingPath": false,
       "dontSynchroniseWithSymbol": false,
-      "glyphBounds": "{{2, 4}, {114, 22}}",
+      "glyphBounds": "{{2, 7}, {62, 21}}",
       "lineSpacingBehaviour": 2,
       "textBehaviour": 0
-    },
-    {
-      "_class": "text",
-      "do_objectID": "2388174C-2B5B-4E3D-B7F1-1EB3E7526D1D",
-      "booleanOperation": -1,
-      "isFixedToViewport": false,
-      "isFlippedHorizontal": false,
-      "isFlippedVertical": false,
-      "isLocked": false,
-      "isVisible": true,
-      "layerListExpandedType": 0,
-      "maintainScrollPosition": false,
-      "name": "Lorem ipsum dolor si",
-      "nameIsFixed": false,
-      "resizingConstraint": 63,
-      "resizingType": 0,
-      "rotation": 0,
-      "shouldBreakMaskChain": false,
-      "exportOptions": {
-        "_class": "exportOptions",
-        "includedLayerIds": [],
-        "layerOptions": 0,
-        "shouldTrim": false,
-        "exportFormats": []
-      },
-      "frame": {
-        "_class": "rect",
-        "constrainProportions": false,
-        "height": 17,
-        "width": 1504,
-        "x": 0,
-        "y": 47
-      },
-      "clippingMaskMode": 0,
-      "hasClippingMask": false,
-      "style": {
-        "_class": "style",
-        "do_objectID": "44E6687C-145E-43C9-A9D7-FEA6822E9F49",
-        "endMarkerType": 0,
-        "miterLimit": 10,
-        "startMarkerType": 0,
-        "windingRule": 1,
-        "blur": {
-          "_class": "blur",
-          "isEnabled": false,
-          "center": "{0.5, 0.5}",
-          "motionAngle": 0,
-          "radius": 10,
-          "saturation": 1,
-          "type": 0
-        },
-        "borderOptions": {
-          "_class": "borderOptions",
-          "isEnabled": true,
-          "dashPattern": [],
-          "lineCapStyle": 0,
-          "lineJoinStyle": 0
-        },
-        "borders": [],
-        "colorControls": {
-          "_class": "colorControls",
-          "isEnabled": false,
-          "brightness": 0,
-          "contrast": 1,
-          "hue": 0,
-          "saturation": 1
-        },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
-        "fills": [],
-        "innerShadows": [],
-        "shadows": [],
-        "textStyle": {
-          "_class": "textStyle",
-          "encodedAttributes": {
-            "textStyleVerticalAlignmentKey": 0,
-            "MSAttributedStringColorAttribute": {
-              "_class": "color",
-              "alpha": 1,
-              "blue": 1,
-              "green": 1,
-              "red": 1
-            },
-            "MSAttributedStringFontAttribute": {
-              "_class": "fontDescriptor",
-              "attributes": { "name": "TimesNewRomanPSMT", "size": 16 }
-            }
-          },
-          "verticalAlignment": 0
-        }
-      },
-      "attributedString": {
-        "_class": "attributedString",
-        "string": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "attributes": [
-          {
-            "_class": "stringAttribute",
-            "location": 0,
-            "length": 231,
-            "attributes": {
-              "textStyleVerticalAlignmentKey": 0,
-              "MSAttributedStringFontAttribute": {
-                "_class": "fontDescriptor",
-                "attributes": { "name": "TimesNewRomanPSMT", "size": 16 }
-              },
-              "MSAttributedStringColorAttribute": {
-                "_class": "color",
-                "alpha": 1,
-                "blue": 1,
-                "green": 1,
-                "red": 1
-              }
-            }
-          }
-        ]
-      },
-      "automaticallyDrawOnUnderlyingPath": false,
-      "dontSynchroniseWithSymbol": false,
-      "glyphBounds": "{{0, 2}, {1503, 16}}",
-      "lineSpacingBehaviour": 2,
-      "textBehaviour": 1
     }
   ],
   "includeInCloudUpload": true,

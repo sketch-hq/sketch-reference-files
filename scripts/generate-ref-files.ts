@@ -75,7 +75,9 @@ const generateRefFiles = async () => {
       writeFileSync(`${pluginContents}/manifest.json`, JSON.stringify(manifest, null, 2))
       exec(`cp ${featuresDir}/${script} ${pluginContents}`)
       const context = JSON.stringify({ savePath: featureOutputDir })
-      exec(`${sketchtoolBin} run ${plugin} ${feature.id} --context='${context}'`)
+      exec(
+        `${sketchtoolBin} run ${plugin} ${feature.id} --context='${context}' --without-activating`,
+      )
       exec(`unzip ${featureOutputDir}/output.sketch -d ${featureOutputDir}`)
       exec(`rm ${featureOutputDir}/*.sketch`)
       exec(`rm -rf ${featureOutputDir}/previews`)

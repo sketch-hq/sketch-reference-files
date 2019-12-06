@@ -1,5 +1,3 @@
-// TODO: Use SketchAPI to do this when ready
-
 var sketch = require('sketch')
 var Document = require('sketch').Document
 var Rectangle = require('sketch/dom').Rectangle
@@ -9,6 +7,7 @@ var SymbolInstance = require('sketch/dom').SymbolInstance
 var Text = require('sketch/dom').Text
 var Artboard = require('sketch/dom').Artboard
 var Page = require('sketch/dom').Page
+var SmartLayout = require('sketch').SmartLayout
 
 function main(ctx) {
   const doc = new Document()
@@ -19,11 +18,6 @@ function main(ctx) {
     name: 'artboard',
     frame: { x: 0, y: 0, width: 100, height: 32 },
   })
-
-  const newLayout = MSInferredGroupLayout.alloc().init()
-  newLayout.isInferredLayout = true
-  newLayout.axis = 0
-  newLayout.layoutAnchor = 1
 
   var rect = new Rectangle(0, 0, 100, 32)
 
@@ -54,7 +48,7 @@ function main(ctx) {
 
   var master = SymbolMaster.fromArtboard(artboard)
   master.parent = symbols
-  master.sketchObject.groupLayout = newLayout
+  master.smartLayout = SmartLayout.TopToBottom
 
   var instance1 = new SymbolInstance({
     name: 'instance',
@@ -63,16 +57,7 @@ function main(ctx) {
   })
   instance1.frame = { x: 0, y: 100, width: 100, height: 32 }
   instance1.setOverrideValue(instance1.overrides[0], 'My really long text goes here')
-  instance1.sketchObject.resizeToFitContentsIfNeededNoCache()
-
-  var instance2 = new SymbolInstance({
-    name: 'instance',
-    symbolId: master.symbolId,
-    parent: page,
-  })
-  instance2.frame = { x: 0, y: 300, width: 100, height: 32 }
-  instance2.setOverrideValue(instance2.overrides[0], 'My other text should go here something')
-  instance2.sketchObject.resizeToFitContentsIfNeededNoCache()
+  instance1.resizeWithSmartLayout()
 
   // Save and close
   doc.save(

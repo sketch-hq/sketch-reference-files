@@ -1,24 +1,24 @@
 {
-  "commit": "3a5bc985037168b405adaa195c6ccffd69b968a3",
+  "commit": "263281c53601afed11c5ffc64635380925727011",
   "pagesAndArtboards": {
-    "CB486BB2-508C-4A8A-A831-D134AB3770E9": { "name": "Page 1", "artboards": {} }
+    "A3638F05-5762-42DF-8879-A6004F1E878F": { "name": "Page 1", "artboards": {} }
   },
   "version": 121,
-  "fonts": ["RecursiveBeta_1_019-SansLinearA_Sans-Casual-Medium"],
+  "fonts": ["RecursiveBeta_1_022-SansLinearA_Sans-Casual-Medium"],
   "compatibilityVersion": 99,
   "app": "com.bohemiancoding.sketch3",
   "autosaved": 0,
   "variant": "NONAPPSTORE",
   "created": {
-    "commit": "3a5bc985037168b405adaa195c6ccffd69b968a3",
-    "appVersion": "60",
-    "build": 88103,
+    "commit": "263281c53601afed11c5ffc64635380925727011",
+    "appVersion": "61",
+    "build": 89581,
     "app": "com.bohemiancoding.sketch3",
     "compatibilityVersion": 99,
     "version": 121,
     "variant": "NONAPPSTORE"
   },
-  "saveHistory": ["NONAPPSTORE.88103"],
-  "appVersion": "60",
-  "build": 88103
+  "saveHistory": ["NONAPPSTORE.89581"],
+  "appVersion": "61",
+  "build": 89581
 }

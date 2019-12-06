@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "E4FFF397-40DF-4722-8AFF-CCA2C9A34CE8",
+  "do_objectID": "A4CFADB3-5CCB-419A-B5F1-6E4C811D98C6",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "D7FA1A18-3BFC-46CF-8520-39D8526BAF68",
+    "do_objectID": "7D74515E-E1F8-41D5-9F88-4582F1C382CE",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,8 +73,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "bitmap",
-      "do_objectID": "E854CA38-D251-4FED-857C-37CBAF6CA6F5",
+      "_class": "symbolInstance",
+      "do_objectID": "73A4F691-242D-4CBB-A095-819E6CFD444F",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -83,7 +83,7 @@
       "isVisible": true,
       "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "MyImage",
+      "name": "my symbol",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
@@ -99,16 +99,16 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 181,
+        "height": 200,
         "width": 200,
-        "x": 0,
+        "x": 200,
         "y": 0
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "90A742CE-2C12-4DAD-8FD6-B0B8905F2551",
+        "do_objectID": "226625F3-7E35-4772-ACB9-E24F7B0E5BFA",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -143,14 +143,11 @@
         "innerShadows": [],
         "shadows": []
       },
-      "clippingMask": "{{0, 0}, {1, 1}}",
-      "fillReplacesImage": false,
-      "image": {
-        "_class": "MSJSONFileReference",
-        "_ref_class": "MSImageData",
-        "_ref": "images/5e66bb5eef61a7941be4a04626356fcd1a3a1742.png"
-      },
-      "intendedDPI": 0
+      "horizontalSpacing": 0,
+      "scale": 1,
+      "symbolID": "E0A9227B-A425-4B3C-84E5-6B56CE04D017",
+      "verticalSpacing": 0,
+      "overrideValues": []
     }
   ],
   "includeInCloudUpload": true,
