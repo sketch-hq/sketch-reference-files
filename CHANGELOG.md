@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/sketch-hq/sketch-reference-files/compare/v2.0.0...v2.1.0) (2020-01-13)
+
+
+### Features
+
+* use Sketch 61 and new SketchAPI features to gen files for doc 121 ([#5](https://github.com/sketch-hq/sketch-reference-files/issues/5)) ([b3d923d](https://github.com/sketch-hq/sketch-reference-files/commit/b3d923de7e566a8362fcec32587bd2d5ff405f14))
+
 ## [2.0.0](https://github.com/sketch-hq/sketch-reference-files/compare/v1.2.0...v2.0.0) (2019-10-29)
 
 
