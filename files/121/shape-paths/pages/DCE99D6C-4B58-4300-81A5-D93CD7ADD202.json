@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "CB486BB2-508C-4A8A-A831-D134AB3770E9",
+  "do_objectID": "DCE99D6C-4B58-4300-81A5-D93CD7ADD202",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "A93787A3-A6AA-4870-93E0-6AC083F982CD",
+    "do_objectID": "A7E9016D-DC86-4486-82EF-562EE3F323D2",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,8 +73,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "text",
-      "do_objectID": "34E4EE91-C636-4813-B952-7B07DE403DAD",
+      "_class": "shapePath",
+      "do_objectID": "6F50A109-F26B-4F72-8276-A8E567A02160",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -83,9 +83,9 @@
       "isVisible": true,
       "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "Text",
+      "name": "Path",
       "nameIsFixed": false,
-      "resizingConstraint": 47,
+      "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
       "shouldBreakMaskChain": false,
@@ -99,8 +99,8 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 34,
-        "width": 67,
+        "height": 250,
+        "width": 200,
         "x": 0,
         "y": 0
       },
@@ -108,7 +108,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "9256C2B9-51AC-40B4-9795-1E98CB8300B0",
+        "do_objectID": "A34FD3D0-4675-4144-A9B9-E3D27BF13027",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -129,12 +129,22 @@
           "lineCapStyle": 0,
           "lineJoinStyle": 0
         },
-        "borders": [
+        "borders": [],
+        "colorControls": {
+          "_class": "colorControls",
+          "isEnabled": false,
+          "brightness": 0,
+          "contrast": 1,
+          "hue": 0,
+          "saturation": 1
+        },
+        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
+        "fills": [
           {
-            "_class": "border",
+            "_class": "fill",
             "isEnabled": true,
             "fillType": 0,
-            "color": { "_class": "color", "alpha": 1, "blue": 0.592, "green": 0.592, "red": 0.592 },
+            "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 1, "red": 0 },
             "contextSettings": {
               "_class": "graphicsContextSettings",
               "blendMode": 0,
@@ -159,91 +169,50 @@
                 }
               ]
             },
-            "position": 0,
-            "thickness": 1
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
           }
         ],
-        "colorControls": {
-          "_class": "colorControls",
-          "isEnabled": false,
-          "brightness": 0,
-          "contrast": 1,
-          "hue": 0,
-          "saturation": 1
-        },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
-        "fills": [],
         "innerShadows": [],
-        "shadows": [],
-        "textStyle": {
-          "_class": "textStyle",
-          "encodedAttributes": {
-            "MSAttributedStringFontAttribute": {
-              "_class": "fontDescriptor",
-              "attributes": {
-                "size": 28,
-                "variation": {
-                  "1769234796": 1,
-                  "1481658958": 0.2,
-                  "2003265652": 500,
-                  "1297043023": 0.6,
-                  "1936486004": -15
-                },
-                "name": "RecursiveBeta_1_019-SansLinearA_Sans-Casual-Medium"
-              }
-            },
-            "textStyleVerticalAlignmentKey": 0,
-            "MSAttributedStringColorAttribute": {
-              "_class": "color",
-              "alpha": 1,
-              "blue": 0,
-              "green": 0,
-              "red": 0
-            }
-          },
-          "verticalAlignment": 0
+        "shadows": []
+      },
+      "edited": true,
+      "isClosed": false,
+      "pointRadiusBehaviour": 1,
+      "points": [
+        {
+          "_class": "curvePoint",
+          "cornerRadius": 0,
+          "curveFrom": "{0.16666666666666657, -0.16666666666666663}",
+          "curveMode": 4,
+          "curveTo": "{0, 0.5}",
+          "hasCurveFrom": true,
+          "hasCurveTo": false,
+          "point": "{0, 0.5}"
+        },
+        {
+          "_class": "curvePoint",
+          "cornerRadius": 0,
+          "curveFrom": "{0.66666666666666652, 1.1666666666666665}",
+          "curveMode": 2,
+          "curveTo": "{0.33333333333333343, -0.16666666666666663}",
+          "hasCurveFrom": true,
+          "hasCurveTo": true,
+          "point": "{0.5, 0.5}"
+        },
+        {
+          "_class": "curvePoint",
+          "cornerRadius": 0,
+          "curveFrom": "{1, 0.5}",
+          "curveMode": 4,
+          "curveTo": "{0.83333333333333348, 1.1666666666666665}",
+          "hasCurveFrom": false,
+          "hasCurveTo": true,
+          "point": "{1, 0.5}"
         }
-      },
-      "attributedString": {
-        "_class": "attributedString",
-        "string": "Text",
-        "attributes": [
-          {
-            "_class": "stringAttribute",
-            "location": 0,
-            "length": 4,
-            "attributes": {
-              "MSAttributedStringColorAttribute": {
-                "_class": "color",
-                "alpha": 1,
-                "blue": 0,
-                "green": 0,
-                "red": 0
-              },
-              "MSAttributedStringFontAttribute": {
-                "_class": "fontDescriptor",
-                "attributes": {
-                  "size": 28,
-                  "variation": {
-                    "1769234796": 1,
-                    "1481658958": 0.2,
-                    "2003265652": 500,
-                    "1297043023": 0.6,
-                    "1936486004": -15
-                  },
-                  "name": "RecursiveBeta_1_019-SansLinearA_Sans-Casual-Medium"
-                }
-              },
-              "textStyleVerticalAlignmentKey": 0
-            }
-          }
-        ]
-      },
-      "automaticallyDrawOnUnderlyingPath": false,
-      "dontSynchroniseWithSymbol": false,
-      "glyphBounds": "{{3, 7}, {63, 21}}",
-      "lineSpacingBehaviour": 2,
-      "textBehaviour": 0
+      ]
     }
   ],
   "includeInCloudUpload": true,

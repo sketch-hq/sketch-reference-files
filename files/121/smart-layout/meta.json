@@ -1,28 +1,28 @@
 {
-  "commit": "3a5bc985037168b405adaa195c6ccffd69b968a3",
+  "commit": "263281c53601afed11c5ffc64635380925727011",
   "pagesAndArtboards": {
-    "EA7ABC41-C4B2-4820-A606-91052E294810": {
+    "F7E0DB53-C2DE-4605-881B-A3DF89FED898": {
       "name": "Symbols",
-      "artboards": { "E23D5BA8-93A8-450E-9610-838F727094B6": { "name": "artboard" } }
+      "artboards": { "0D8621E9-22C0-4288-AE4C-BBBBD5ED3F4F": { "name": "artboard" } }
     },
-    "BAE8DF23-C257-479E-BE2F-23D050FEC0BB": { "name": "Page 1", "artboards": {} }
+    "8D613079-F598-4CF0-8BD9-18DA775D0D21": { "name": "Page 1", "artboards": {} }
   },
   "version": 121,
-  "fonts": ["Roboto-Regular"],
+  "fonts": ["RecursiveBeta_1_022-SansLinearA_Sans-Casual-Medium"],
   "compatibilityVersion": 99,
   "app": "com.bohemiancoding.sketch3",
   "autosaved": 0,
   "variant": "NONAPPSTORE",
   "created": {
-    "commit": "3a5bc985037168b405adaa195c6ccffd69b968a3",
-    "appVersion": "60",
-    "build": 88103,
+    "commit": "263281c53601afed11c5ffc64635380925727011",
+    "appVersion": "61",
+    "build": 89581,
     "app": "com.bohemiancoding.sketch3",
     "compatibilityVersion": 99,
     "version": 121,
     "variant": "NONAPPSTORE"
   },
-  "saveHistory": ["NONAPPSTORE.88103"],
-  "appVersion": "60",
-  "build": 88103
+  "saveHistory": ["NONAPPSTORE.89581"],
+  "appVersion": "61",
+  "build": 89581
 }

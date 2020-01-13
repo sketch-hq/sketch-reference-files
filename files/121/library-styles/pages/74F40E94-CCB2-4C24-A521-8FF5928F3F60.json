@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "BC416D0E-81AB-4AF3-ABF1-060D627C96DF",
+  "do_objectID": "74F40E94-CCB2-4C24-A521-8FF5928F3F60",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "E881BFBD-804B-4BE4-9836-073A26E5150C",
+    "do_objectID": "88BC6E7F-2936-4936-BA36-268069FC3F93",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -74,7 +74,7 @@
   "layers": [
     {
       "_class": "shapeGroup",
-      "do_objectID": "FF79EC5C-2CC5-4736-98C9-530DD14D7E31",
+      "do_objectID": "9E9413E0-D044-4BD7-A709-7DFBB277D5F8",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -106,9 +106,10 @@
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
+      "sharedStyleID": "C0C6C1FD-B8A4-41DF-A8ED-FEA5267D34EB",
       "style": {
         "_class": "style",
-        "do_objectID": "776F415A-2B78-41F7-9AC7-0879BF5F5AD0",
+        "do_objectID": "B61136DE-98B9-459E-AA51-287678CFEA88",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -116,9 +117,9 @@
         "blur": {
           "_class": "blur",
           "isEnabled": false,
-          "center": "{10, 20}",
-          "motionAngle": 10,
-          "radius": 2,
+          "center": "{0.5, 0.5}",
+          "motionAngle": 0,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -172,7 +173,42 @@
           "saturation": 1
         },
         "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
-        "fills": [],
+        "fills": [
+          {
+            "_class": "fill",
+            "isEnabled": true,
+            "fillType": 0,
+            "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 0, "red": 0 },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "to": "{0.5, 1}",
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "position": 0,
+                  "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                },
+                {
+                  "_class": "gradientStop",
+                  "position": 1,
+                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                }
+              ]
+            },
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
+        ],
         "innerShadows": [],
         "shadows": []
       },
@@ -181,7 +217,7 @@
       "layers": [
         {
           "_class": "rectangle",
-          "do_objectID": "737AB93D-D5BB-459D-85A9-1ED75B64D473",
+          "do_objectID": "89683320-0FA1-4E78-BD62-84190D68FBFB",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -215,7 +251,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "626F4E98-9AEA-478D-A7E8-AEBF307FB478",
+            "do_objectID": "873200CC-BCED-4EDC-937F-7468785DBA87",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,

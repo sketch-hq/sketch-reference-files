@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "BE6AE28D-A089-4952-8CD4-9504AA341828",
+  "do_objectID": "FD724B0A-5679-48E5-82AE-20428590CC05",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "8D7A3470-92DE-4037-A51F-1913D8A842EA",
+    "do_objectID": "6AC1A181-4001-4E97-AD85-7E345F41C6DF",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -74,7 +74,7 @@
   "layers": [
     {
       "_class": "shapeGroup",
-      "do_objectID": "03A89F92-0B9A-460B-8B1F-B672E54FBAF6",
+      "do_objectID": "93776E94-1577-404D-BCB2-29784870739E",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -108,7 +108,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "51BAE934-5E63-44A3-A746-E059DCFB1898",
+        "do_objectID": "3A10005A-18E4-481D-B690-D45ED92C017F",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -227,7 +227,7 @@
       "layers": [
         {
           "_class": "rectangle",
-          "do_objectID": "33ED0BF2-7448-4A1E-984D-B08833EFA826",
+          "do_objectID": "5302D26F-212E-449E-A680-73F6FA64088B",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -261,7 +261,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "26F7C39C-BD01-4CC5-B5D7-C4A0FB079E2D",
+            "do_objectID": "26783861-F786-48AA-A0F5-0060B20607A1",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,

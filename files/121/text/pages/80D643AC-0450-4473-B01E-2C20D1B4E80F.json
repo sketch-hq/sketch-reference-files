@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "BAE8DF23-C257-479E-BE2F-23D050FEC0BB",
+  "do_objectID": "80D643AC-0450-4473-B01E-2C20D1B4E80F",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -34,7 +34,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "32D890EE-AADF-4F5B-B490-031AD9FD26D2",
+    "do_objectID": "F47A4AF1-36BA-4B6A-BF6A-642612D2C8E0",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,8 +73,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "symbolInstance",
-      "do_objectID": "487D10F5-220A-4BCD-8232-4E10D4590C94",
+      "_class": "text",
+      "do_objectID": "6F1D0A9B-2386-4F07-B046-B6024E6F8F9E",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -83,9 +83,9 @@
       "isVisible": true,
       "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "instance",
+      "name": "Headline",
       "nameIsFixed": false,
-      "resizingConstraint": 63,
+      "resizingConstraint": 47,
       "resizingType": 0,
       "rotation": 0,
       "shouldBreakMaskChain": false,
@@ -99,16 +99,16 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 32,
-        "width": 198,
-        "x": -49,
-        "y": 100
+        "height": 31,
+        "width": 117,
+        "x": 0,
+        "y": 0
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "418E8327-092F-4A01-A9E4-1011ABCD94A8",
+        "do_objectID": "21C8ECD6-C976-4E5F-8AB0-8CB481BE4BDB",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -141,23 +141,60 @@
         "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
         "fills": [],
         "innerShadows": [],
-        "shadows": []
-      },
-      "horizontalSpacing": 0,
-      "scale": 1,
-      "symbolID": "CE36A592-628F-4390-AF1B-00CD82E23B56",
-      "verticalSpacing": 0,
-      "overrideValues": [
-        {
-          "_class": "overrideValue",
-          "overrideName": "0F2AB7D3-1CA0-4132-9EC3-800A2BEF36FE_stringValue",
-          "value": "My really long text goes here"
+        "shadows": [],
+        "textStyle": {
+          "_class": "textStyle",
+          "encodedAttributes": {
+            "textStyleVerticalAlignmentKey": 0,
+            "MSAttributedStringColorAttribute": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 1,
+              "green": 1,
+              "red": 1
+            },
+            "MSAttributedStringFontAttribute": {
+              "_class": "fontDescriptor",
+              "attributes": { "name": "Arial-BoldItalicMT", "size": 28 }
+            }
+          },
+          "verticalAlignment": 0
         }
-      ]
+      },
+      "attributedString": {
+        "_class": "attributedString",
+        "string": "Headline",
+        "attributes": [
+          {
+            "_class": "stringAttribute",
+            "location": 0,
+            "length": 8,
+            "attributes": {
+              "textStyleVerticalAlignmentKey": 0,
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": { "name": "Arial-BoldItalicMT", "size": 28 }
+              },
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 1,
+                "green": 1,
+                "red": 1
+              }
+            }
+          }
+        ]
+      },
+      "automaticallyDrawOnUnderlyingPath": false,
+      "dontSynchroniseWithSymbol": false,
+      "glyphBounds": "{{1, 4}, {116, 22}}",
+      "lineSpacingBehaviour": 2,
+      "textBehaviour": 0
     },
     {
-      "_class": "symbolInstance",
-      "do_objectID": "AE5E720F-9D32-4F65-92D7-F3E4C255D6F7",
+      "_class": "text",
+      "do_objectID": "B47C813D-2E35-4647-B203-89970B2B0777",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -166,7 +203,7 @@
       "isVisible": true,
       "layerListExpandedType": 0,
       "maintainScrollPosition": false,
-      "name": "instance",
+      "name": "Lorem ipsum dolor si",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
@@ -182,16 +219,16 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 32,
-        "width": 267,
-        "x": -83.5,
-        "y": 300
+        "height": 17,
+        "width": 1508,
+        "x": 0,
+        "y": 47
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "D809BB00-6751-4A3B-9493-3C2029A454EB",
+        "do_objectID": "219F6D00-7C79-4143-A53B-FF12DA166B22",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -224,19 +261,56 @@
         "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
         "fills": [],
         "innerShadows": [],
-        "shadows": []
-      },
-      "horizontalSpacing": 0,
-      "scale": 1,
-      "symbolID": "CE36A592-628F-4390-AF1B-00CD82E23B56",
-      "verticalSpacing": 0,
-      "overrideValues": [
-        {
-          "_class": "overrideValue",
-          "overrideName": "0F2AB7D3-1CA0-4132-9EC3-800A2BEF36FE_stringValue",
-          "value": "My other text should go here something"
+        "shadows": [],
+        "textStyle": {
+          "_class": "textStyle",
+          "encodedAttributes": {
+            "textStyleVerticalAlignmentKey": 0,
+            "MSAttributedStringColorAttribute": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 1,
+              "green": 1,
+              "red": 1
+            },
+            "MSAttributedStringFontAttribute": {
+              "_class": "fontDescriptor",
+              "attributes": { "name": "TimesNewRomanPS-ItalicMT", "size": 16 }
+            }
+          },
+          "verticalAlignment": 0
         }
-      ]
+      },
+      "attributedString": {
+        "_class": "attributedString",
+        "string": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "attributes": [
+          {
+            "_class": "stringAttribute",
+            "location": 0,
+            "length": 231,
+            "attributes": {
+              "textStyleVerticalAlignmentKey": 0,
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": { "name": "TimesNewRomanPS-ItalicMT", "size": 16 }
+              },
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 1,
+                "green": 1,
+                "red": 1
+              }
+            }
+          }
+        ]
+      },
+      "automaticallyDrawOnUnderlyingPath": false,
+      "dontSynchroniseWithSymbol": false,
+      "glyphBounds": "{{-1, 2}, {1507, 16}}",
+      "lineSpacingBehaviour": 2,
+      "textBehaviour": 1
     }
   ],
   "includeInCloudUpload": true,
