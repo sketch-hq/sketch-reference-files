@@ -8,17 +8,17 @@ import { execSync } from 'child_process'
 import replaceSection from 'markdown-replace-section'
 // @ts-ignore
 import mdTable from 'markdown-table'
-import pkg from '../package.json'
 import { versions, features } from './config'
 
 const updateReadme = async () => {
-  let content = ''
+  let content =
+    '> ⚠️ This section is automatically generated. Any manual edits will be erased during a build.\n\n'
   for (const { document, sketchVersions } of [...versions].reverse()) {
     content += `### Document ${document}\n\n`
     content += `> Sketch versions: ${sketchVersions
       .map(versionTuple => versionTuple[0])
       .join(', ')}\n\n`
-    const repoUri = `https://github.com/sketch-hq/sketch-reference-files/tree/v${pkg.version}/files`
+    const repoUri = `https://github.com/sketch-hq/sketch-reference-files/blob/master/files`
     content += mdTable([
       ['Feature', 'Document', 'Pages', 'Meta', 'User'],
       ...features.map(feature => {
