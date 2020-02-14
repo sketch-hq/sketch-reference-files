@@ -13,7 +13,7 @@ function main(ctx) {
     text: 'Text',
     parent: page,
     style: {
-      fontFamily: 'RecursiveBeta_1_022-SansLinearA_Sans-Casual-Light'
+      fontFamily: 'RecursiveBeta_1_022-SansLinearA_Sans-Casual-Light',
     },
   })
 

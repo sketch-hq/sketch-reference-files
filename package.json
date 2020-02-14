@@ -13,45 +13,26 @@
   "scripts": {
     "download-apps": "ts-node ./scripts/download-sketch-apps.ts",
     "generate-files": "ts-node ./scripts/generate-ref-files.ts",
-    "build": "yarn webpack && rm -rf dist/scripts",
+    "build": "yarn webpack && rm -rf dist/scripts && yarn update-readme",
     "update-readme": "ts-node ./scripts/update-readme.ts",
-    "release": "HUSKY_SKIP_HOOKS=1 standard-version --no-verify",
-    "prepublishOnly": "yarn update-readme",
-    "commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
+    "release": "yarn build && changeset publish",
     "format-check": "prettier --check **/*.{ts,js,md,json}"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
-    }
-  },
-  "standard-version": {
-    "scripts": {
-      "prerelease": "yarn build"
-    }
   },
   "dependencies": {},
   "devDependencies": {
+    "@changesets/cli": "2.5.1",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
+    "@commitlint/prompt-cli": "8.3.5",
     "@types/node": "12.6.0",
     "@types/node-fetch": "2.5.2",
     "@types/semver": "6.0.2",
     "@types/webpack-env": "1.14.1",
-    "commitizen": "4.0.3",
-    "cz-conventional-changelog": "3.0.2",
-    "husky": "3.0.9",
     "markdown-replace-section": "0.4.0",
     "markdown-table": "1.1.3",
     "node-fetch": "2.6.0",
     "prettier": "1.18.2",
     "semver": "6.3.0",
-    "standard-version": "7.0.0",
     "ts-loader": "6.2.1",
     "ts-node": "8.4.1",
     "typescript": "3.6.4",
