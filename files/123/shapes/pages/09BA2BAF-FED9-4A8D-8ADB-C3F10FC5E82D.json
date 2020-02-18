@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "9F7B99AC-BA79-4BA6-BCA1-BD0B5E46CDF0",
+  "do_objectID": "09BA2BAF-FED9-4A8D-8ADB-C3F10FC5E82D",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "F985702D-E046-4CBD-A5AD-1CEC13DD3F90",
+    "do_objectID": "A10D5B0E-1AB7-440E-BF95-4DC0BCD64F8D",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "shapeGroup",
-      "do_objectID": "1F20E5DD-5CA3-40E5-BF1A-40589F78A621",
+      "do_objectID": "F616EBC0-6E3B-4A03-8503-AACFA44DB641",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -106,7 +106,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "ED8D66AF-9BD6-42EC-BCFC-F4AF9B64BDE4",
+        "do_objectID": "8FAE0243-4460-473E-B94A-6482CDF2E181",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -114,9 +114,9 @@
         "blur": {
           "_class": "blur",
           "isEnabled": false,
-          "center": "{10, 20}",
-          "motionAngle": 10,
-          "radius": 2,
+          "center": "{0.5, 0.5}",
+          "motionAngle": 0,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -132,7 +132,7 @@
             "_class": "border",
             "isEnabled": true,
             "fillType": 0,
-            "color": { "_class": "color", "alpha": 1, "blue": 0.592, "green": 0.592, "red": 0.592 },
+            "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 1, "red": 0 },
             "contextSettings": {
               "_class": "graphicsContextSettings",
               "blendMode": 0,
@@ -169,17 +169,63 @@
           "hue": 0,
           "saturation": 1
         },
-        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 },
-        "fills": [],
+        "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 0.5 },
+        "fills": [
+          {
+            "_class": "fill",
+            "isEnabled": true,
+            "fillType": 0,
+            "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 1 },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "to": "{0.5, 1}",
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "position": 0,
+                  "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+                },
+                {
+                  "_class": "gradientStop",
+                  "position": 1,
+                  "color": { "_class": "color", "alpha": 1, "blue": 0, "green": 0, "red": 0 }
+                }
+              ]
+            },
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
+        ],
         "innerShadows": [],
-        "shadows": []
+        "shadows": [
+          {
+            "_class": "shadow",
+            "isEnabled": true,
+            "blurRadius": 20,
+            "offsetX": 0,
+            "offsetY": 2,
+            "spread": 0,
+            "color": { "_class": "color", "alpha": 1, "blue": 1, "green": 0, "red": 0 },
+            "contextSettings": { "_class": "graphicsContextSettings", "blendMode": 0, "opacity": 1 }
+          }
+        ]
       },
       "hasClickThrough": false,
       "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
       "layers": [
         {
           "_class": "rectangle",
-          "do_objectID": "E3C35471-4B80-4192-8AB2-AE743B56C906",
+          "do_objectID": "CE6F9F5C-CF62-4C46-83F5-893E3DFE71D1",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -212,7 +258,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "72B1F7DF-E1D8-4F68-B74E-1BF0AC92E4EB",
+            "do_objectID": "FE5B7290-D760-4E90-8D62-BFE89A448B1C",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,

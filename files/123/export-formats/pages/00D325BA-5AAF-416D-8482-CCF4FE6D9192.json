@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "C4C46A74-8860-4CC7-8C3D-A64C38AA0F5F",
+  "do_objectID": "00D325BA-5AAF-416D-8482-CCF4FE6D9192",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "03C987B3-C4BB-4D55-850E-9EA6C15DF134",
+    "do_objectID": "4B93677D-39E6-41B6-B2BC-F4256DDEF39F",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "artboard",
-      "do_objectID": "3FB3B18E-ED66-4D93-BF9E-8E57CC2EAACD",
+      "do_objectID": "2F361112-7945-4EBE-BFE5-FE0D0118D621",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -215,7 +215,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "78CBD53E-0561-4A64-9437-FC6389CAF235",
+        "do_objectID": "922117B6-7B06-403D-B261-213F1657F83A",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,

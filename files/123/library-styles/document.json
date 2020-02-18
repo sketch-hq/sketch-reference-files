@@ -1,11 +1,11 @@
 {
   "_class": "document",
-  "do_objectID": "22666514-8236-4AFA-AFD2-846AC92F7992",
+  "do_objectID": "8D294140-729F-48FF-9550-A6562727116F",
   "colorSpace": 0,
   "currentPageIndex": 0,
   "assets": {
     "_class": "assetCollection",
-    "do_objectID": "ED2C00F2-B4A8-458A-80A0-32290E0A939C",
+    "do_objectID": "108DFE10-1520-4343-88C7-0737C35BD69B",
     "images": [],
     "colorAssets": [],
     "exportPresets": [],
@@ -17,18 +17,18 @@
   "foreignLayerStyles": [
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "90F4E73E-77BC-46B0-B907-41AB8B843138",
-      "libraryID": "203072E9-5F8F-4035-8925-27071F1C47DE",
-      "sourceLibraryName": "lib-da29be",
+      "do_objectID": "E28909A5-6293-48BE-A24E-1CDC148B8EBF",
+      "libraryID": "A3AF3AA3-C320-460A-A07F-5487AF1F899E",
+      "sourceLibraryName": "lib-179349",
       "symbolPrivate": false,
-      "remoteStyleID": "F5525E61-7BD2-4DEC-80F6-D1D788CEC415",
+      "remoteStyleID": "008F79D2-C0A0-4646-B70D-E4255A2F6ADC",
       "localSharedStyle": {
         "_class": "sharedStyle",
-        "do_objectID": "56F4E45B-FBAA-49A0-B41F-FCFD924706B9",
+        "do_objectID": "7060FFA3-9DA5-4BC0-8B97-BD55453C7804",
         "name": "my shared style",
         "value": {
           "_class": "style",
-          "do_objectID": "05ECE0EB-D7FD-4978-B373-EDFE7F74CC25",
+          "do_objectID": "5CD9C603-E7BE-4A54-99BD-669D4B46A90F",
           "endMarkerType": 0,
           "miterLimit": 10,
           "startMarkerType": 0,
@@ -149,7 +149,7 @@
     {
       "_class": "MSJSONFileReference",
       "_ref_class": "MSImmutablePage",
-      "_ref": "pages/F285D02C-8DEF-4BFE-8DEC-725D86249710"
+      "_ref": "pages/9253B9E0-E4D4-40B9-B370-31EA0EEA47EF"
     }
   ]
 }

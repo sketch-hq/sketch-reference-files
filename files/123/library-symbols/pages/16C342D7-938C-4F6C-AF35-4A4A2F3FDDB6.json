@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "E65CE599-5176-4DBB-8B96-2A421AC65F2E",
+  "do_objectID": "16C342D7-938C-4F6C-AF35-4A4A2F3FDDB6",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "C8E70E86-40DC-45AE-9DF3-743FC45D26D3",
+    "do_objectID": "C01FD38F-415E-46DF-B783-6B36CA0275C6",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "symbolInstance",
-      "do_objectID": "7491F0F7-9D7E-402F-BA65-1BA126399501",
+      "do_objectID": "42210E26-7A03-40E1-B356-09C908F4E192",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -106,7 +106,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "5622E2B4-3E4E-4C9D-99F5-BCF87A7C77E1",
+        "do_objectID": "4CEA908F-BED2-4CDE-A76B-51621DE5525B",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -143,7 +143,7 @@
       },
       "horizontalSpacing": 0,
       "scale": 1,
-      "symbolID": "51FFF674-D80C-4145-ADDC-38AC67F91867",
+      "symbolID": "0504E26F-42A5-4D8A-B402-3EFD5C8F3097",
       "verticalSpacing": 0,
       "overrideValues": []
     }

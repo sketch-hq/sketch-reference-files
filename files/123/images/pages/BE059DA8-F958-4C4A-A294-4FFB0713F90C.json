@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "A8F25745-57DC-486B-B001-92F31769F2B8",
+  "do_objectID": "BE059DA8-F958-4C4A-A294-4FFB0713F90C",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "27530192-3948-4A0F-A8E2-6733AD523E8E",
+    "do_objectID": "EC4F76FC-34BF-4B7B-A539-5D85513E05DD",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "bitmap",
-      "do_objectID": "0CF93629-9C85-4131-A040-A817E141DCAF",
+      "do_objectID": "5EFDE550-DFA4-4843-A775-052F6B4FFFEF",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -106,7 +106,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "CA23F2F4-0944-48A2-9DDA-ED9D26977682",
+        "do_objectID": "85B1BE11-8CDB-4DE4-9B8E-35030B7171A8",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,

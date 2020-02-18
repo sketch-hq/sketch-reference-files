@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "6C89ED37-E9CE-4ABB-8781-56363D28DB8C",
+  "do_objectID": "7262FDFD-152C-4CD8-842E-133035167D7E",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "1FF787FB-0B69-41BB-800C-C0E504EDD2E1",
+    "do_objectID": "F79D84CB-4717-4B1A-846A-03A5D8C3ACC9",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "text",
-      "do_objectID": "733D02FF-61AE-4097-BA24-4AFA6C95A2CD",
+      "do_objectID": "C7E68B92-2B2E-4B60-9735-AC237C08D266",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -99,14 +99,14 @@
         "constrainProportions": false,
         "height": 60,
         "width": 115,
-        "x": -46,
+        "x": 0,
         "y": 0
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "A9391843-77EA-4FC4-9548-ED8CC4012020",
+        "do_objectID": "3C1ACC41-1BE5-4DBA-939C-F54C8C6EEF7B",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -179,9 +179,9 @@
             "MSAttributedStringColorAttribute": {
               "_class": "color",
               "alpha": 1,
-              "blue": 0,
-              "green": 0,
-              "red": 0
+              "blue": 1,
+              "green": 1,
+              "red": 1
             },
             "textStyleVerticalAlignmentKey": 0,
             "MSAttributedStringFontAttribute": {
@@ -191,7 +191,7 @@
                 "size": 50
               }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 2 },
+            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 },
             "kerning": 0
           },
           "verticalAlignment": 0
@@ -217,13 +217,13 @@
               "MSAttributedStringColorAttribute": {
                 "_class": "color",
                 "alpha": 1,
-                "blue": 0,
-                "green": 0,
-                "red": 0
+                "blue": 1,
+                "green": 1,
+                "red": 1
               },
               "kerning": 0,
               "textStyleVerticalAlignmentKey": 0,
-              "paragraphStyle": { "_class": "paragraphStyle", "alignment": 2 }
+              "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 }
             }
           }
         ]

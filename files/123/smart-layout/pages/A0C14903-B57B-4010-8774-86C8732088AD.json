@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "BB1AFC82-CDCC-4BB3-9CE5-FED6F6A4920E",
+  "do_objectID": "A0C14903-B57B-4010-8774-86C8732088AD",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "11272E30-3549-4125-BEB5-526AC9068D9A",
+    "do_objectID": "1FFEDB80-D50F-4690-A6D5-66301D6922FB",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -72,8 +72,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "artboard",
-      "do_objectID": "6DECCA77-4B3F-48A6-94B5-6887A4BD666C",
+      "_class": "symbolInstance",
+      "do_objectID": "D15EAE03-52EF-4F5A-9561-D7D4D01F39D8",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -81,12 +81,12 @@
       "isLocked": false,
       "isVisible": true,
       "layerListExpandedType": 0,
-      "name": "MyArtboard",
+      "name": "instance",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
-      "shouldBreakMaskChain": true,
+      "shouldBreakMaskChain": false,
       "exportOptions": {
         "_class": "exportOptions",
         "includedLayerIds": [],
@@ -97,16 +97,16 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 200,
-        "width": 200,
+        "height": 59.51171875,
+        "width": 100,
         "x": 0,
-        "y": 0
+        "y": 100
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "A0A9D5D6-DF81-4B44-B970-275132365041",
+        "do_objectID": "B94B9EDE-A2CA-4773-8902-FFEF0C0E0E72",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -141,53 +141,17 @@
         "innerShadows": [],
         "shadows": []
       },
-      "hasClickThrough": true,
-      "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
-      "layers": [
+      "horizontalSpacing": 0,
+      "scale": 1,
+      "symbolID": "74AC042E-87F9-4CF8-ABE6-030EC3B0CDEC",
+      "verticalSpacing": 0,
+      "overrideValues": [
         {
-          "_class": "slice",
-          "do_objectID": "29F6CD9A-DE8E-44E5-90F8-EFCC0D36A57F",
-          "booleanOperation": -1,
-          "isFixedToViewport": false,
-          "isFlippedHorizontal": false,
-          "isFlippedVertical": false,
-          "isLocked": false,
-          "isVisible": true,
-          "layerListExpandedType": 0,
-          "name": "MySlice",
-          "nameIsFixed": false,
-          "resizingConstraint": 63,
-          "resizingType": 0,
-          "rotation": 0,
-          "shouldBreakMaskChain": false,
-          "exportOptions": {
-            "_class": "exportOptions",
-            "includedLayerIds": [],
-            "layerOptions": 0,
-            "shouldTrim": false,
-            "exportFormats": []
-          },
-          "frame": {
-            "_class": "rect",
-            "constrainProportions": false,
-            "height": 200,
-            "width": 200,
-            "x": 0,
-            "y": 0
-          },
-          "hasBackgroundColor": false,
-          "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
+          "_class": "overrideValue",
+          "overrideName": "57D4BA60-8C28-45AF-9D12-5D63A769D784_stringValue",
+          "value": "My really long text goes here"
         }
-      ],
-      "hasBackgroundColor": false,
-      "includeBackgroundColorInExport": true,
-      "includeInCloudUpload": true,
-      "isFlowHome": false,
-      "presetDictionary": {},
-      "resizesContent": false,
-      "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
-      "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
-      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
+      ]
     }
   ],
   "includeInCloudUpload": true,

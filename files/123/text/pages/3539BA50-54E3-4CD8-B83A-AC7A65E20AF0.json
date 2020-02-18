@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "092800E8-9CFF-4CA0-9576-850D382E6744",
+  "do_objectID": "3539BA50-54E3-4CD8-B83A-AC7A65E20AF0",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "AFFCA9EA-8D81-4CFE-86B2-52DA0CA5FB32",
+    "do_objectID": "E69CF6C0-EF62-4C32-96BB-5465E827158B",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "text",
-      "do_objectID": "B8AE66B6-8109-4EAB-A60D-E67090497044",
+      "do_objectID": "1BD845F2-700C-44D0-858A-A880504D00E7",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -99,14 +99,14 @@
         "constrainProportions": false,
         "height": 31,
         "width": 117,
-        "x": -34.5,
+        "x": 0,
         "y": 0
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "1B888069-53A2-4E57-9D3A-45A1D1E66045",
+        "do_objectID": "E74B6A96-5CA2-4618-BC35-4BFD382AF2BC",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -155,7 +155,7 @@
               "_class": "fontDescriptor",
               "attributes": { "name": "Arial-BoldMT", "size": 28 }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 2 },
+            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 },
             "kerning": 0
           },
           "verticalAlignment": 0
@@ -183,7 +183,7 @@
               },
               "kerning": 0,
               "textStyleVerticalAlignmentKey": 0,
-              "paragraphStyle": { "_class": "paragraphStyle", "alignment": 2 }
+              "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 }
             }
           }
         ]
@@ -196,7 +196,7 @@
     },
     {
       "_class": "text",
-      "do_objectID": "DFB47CCB-EDF4-4C34-8D4B-BF5C8A3FD3F6",
+      "do_objectID": "30C96E84-3C0D-4839-BA49-6A0AB909A616",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -222,14 +222,14 @@
         "constrainProportions": false,
         "height": 17,
         "width": 1504,
-        "x": -752,
+        "x": 0,
         "y": 47
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "9355BA92-9EDA-4A01-8DEF-F264A307C692",
+        "do_objectID": "4CEB293C-1903-4160-A075-1CA86F79E600",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -278,7 +278,7 @@
               "_class": "fontDescriptor",
               "attributes": { "name": "TimesNewRomanPSMT", "size": 16 }
             },
-            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 2 },
+            "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 },
             "kerning": 0
           },
           "verticalAlignment": 0
@@ -306,7 +306,7 @@
               },
               "kerning": 0,
               "textStyleVerticalAlignmentKey": 0,
-              "paragraphStyle": { "_class": "paragraphStyle", "alignment": 2 }
+              "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 }
             }
           }
         ]
