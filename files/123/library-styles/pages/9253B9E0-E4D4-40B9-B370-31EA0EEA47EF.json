@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "F285D02C-8DEF-4BFE-8DEC-725D86249710",
+  "do_objectID": "9253B9E0-E4D4-40B9-B370-31EA0EEA47EF",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "3DE5ACEE-2FD2-451F-B691-B51B816B8B6C",
+    "do_objectID": "F6D86D97-891E-457C-B2C6-6F35125B1BB5",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -73,7 +73,7 @@
   "layers": [
     {
       "_class": "shapeGroup",
-      "do_objectID": "B58892FC-41FB-488C-A785-F72272489A5B",
+      "do_objectID": "C0893CA4-66A1-4213-A700-C69BE21E0944",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -104,10 +104,10 @@
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
-      "sharedStyleID": "56F4E45B-FBAA-49A0-B41F-FCFD924706B9",
+      "sharedStyleID": "7060FFA3-9DA5-4BC0-8B97-BD55453C7804",
       "style": {
         "_class": "style",
-        "do_objectID": "3559658B-015A-4810-9861-71B80C955810",
+        "do_objectID": "9008BF2C-A627-46F2-9179-9D0AB7350640",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -215,7 +215,7 @@
       "layers": [
         {
           "_class": "rectangle",
-          "do_objectID": "237664DF-4EC5-46A1-8E6A-AEC1B236EA0F",
+          "do_objectID": "DC251C1E-A715-4CE5-8F4D-F4C32A80E435",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -248,7 +248,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "8ABE84C2-8380-468B-A6F3-380D62A70D91",
+            "do_objectID": "704D3E2F-087D-4AEC-8A62-CB25B01CEB5E",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,

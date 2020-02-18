@@ -141,6 +141,6 @@ export const versions: VersionInfo[] = [
   },
   {
     document: 123,
-    sketchVersions: [['62', '91390']],
+    sketchVersions: [['62', '91390'], ['63', '92445'], ['63.1', '92452']],
   },
 ]

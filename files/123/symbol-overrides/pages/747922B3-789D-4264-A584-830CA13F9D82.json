@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "AD5FBA6E-BC8B-4C86-A623-7AD4F3B1E0D4",
+  "do_objectID": "747922B3-789D-4264-A584-830CA13F9D82",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "9E84F475-9E98-46D0-93BA-BEC17029299D",
+    "do_objectID": "4A0BD7F2-C77D-4F59-86F4-A3B5AE3AADF9",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -72,8 +72,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "artboard",
-      "do_objectID": "1A399FAE-DE21-4A5F-A8AC-59E6BE4C39DE",
+      "_class": "symbolMaster",
+      "do_objectID": "57CBEE6D-0507-4E00-8A00-7A8E843AAB7E",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -81,7 +81,7 @@
       "isLocked": false,
       "isVisible": true,
       "layerListExpandedType": 0,
-      "name": "Artboard1",
+      "name": "MySymbol",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
@@ -106,7 +106,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "499C5389-985E-480D-A50C-136DD19545A5",
+        "do_objectID": "08D3590A-096F-444D-9D1C-0A31C7606D5E",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -146,7 +146,7 @@
       "layers": [
         {
           "_class": "text",
-          "do_objectID": "ED0B5502-915D-4AE7-9A87-4B594CCAA5EC",
+          "do_objectID": "66C73E37-1355-4135-A441-2DDB365F681E",
           "booleanOperation": -1,
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -154,7 +154,7 @@
           "isLocked": false,
           "isVisible": true,
           "layerListExpandedType": 0,
-          "name": "Go to page 2",
+          "name": "Label",
           "nameIsFixed": false,
           "resizingConstraint": 47,
           "resizingType": 0,
@@ -167,17 +167,11 @@
             "shouldTrim": false,
             "exportFormats": []
           },
-          "flow": {
-            "_class": "MSImmutableFlowConnection",
-            "animationType": 0,
-            "destinationArtboardID": "9B3A5BCE-8988-4CA9-A9D6-FF717DDCE936",
-            "maintainScrollPosition": false
-          },
           "frame": {
             "_class": "rect",
             "constrainProportions": false,
-            "height": 14,
-            "width": 70,
+            "height": 31,
+            "width": 74,
             "x": 0,
             "y": 0
           },
@@ -185,7 +179,7 @@
           "hasClippingMask": false,
           "style": {
             "_class": "style",
-            "do_objectID": "4B520765-E102-47FD-B453-E956D94CAEAE",
+            "do_objectID": "36843A1C-470F-42FD-8186-097116532475",
             "endMarkerType": 0,
             "miterLimit": 10,
             "startMarkerType": 0,
@@ -226,34 +220,54 @@
             "textStyle": {
               "_class": "textStyle",
               "encodedAttributes": {
+                "MSAttributedStringColorAttribute": {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0,
+                  "green": 0,
+                  "red": 1
+                },
+                "textStyleVerticalAlignmentKey": 0,
                 "MSAttributedStringFontAttribute": {
                   "_class": "fontDescriptor",
-                  "attributes": { "name": "Helvetica", "size": 12 }
-                }
+                  "attributes": { "name": "Arial-BoldMT", "size": 28 }
+                },
+                "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 },
+                "kerning": 0
               },
               "verticalAlignment": 0
             }
           },
           "attributedString": {
             "_class": "attributedString",
-            "string": "Go to page 2",
+            "string": "Label",
             "attributes": [
               {
                 "_class": "stringAttribute",
                 "location": 0,
-                "length": 12,
+                "length": 5,
                 "attributes": {
                   "MSAttributedStringFontAttribute": {
                     "_class": "fontDescriptor",
-                    "attributes": { "name": "Helvetica", "size": 12 }
-                  }
+                    "attributes": { "name": "Arial-BoldMT", "size": 28 }
+                  },
+                  "MSAttributedStringColorAttribute": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 1
+                  },
+                  "kerning": 0,
+                  "textStyleVerticalAlignmentKey": 0,
+                  "paragraphStyle": { "_class": "paragraphStyle", "alignment": 3 }
                 }
               }
             ]
           },
           "automaticallyDrawOnUnderlyingPath": false,
           "dontSynchroniseWithSymbol": false,
-          "glyphBounds": "{{0, 2}, {69, 12}}",
+          "glyphBounds": "{{2, 4}, {70, 22}}",
           "lineSpacingBehaviour": 2,
           "textBehaviour": 0
         }
@@ -266,11 +280,16 @@
       "resizesContent": false,
       "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
       "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
-      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
+      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+      "includeBackgroundColorInInstance": true,
+      "symbolID": "3E70CDD1-36E1-4CD3-BD2A-F2580E27118F",
+      "changeIdentifier": 6,
+      "overrideProperties": [],
+      "allowsOverrides": true
     },
     {
-      "_class": "artboard",
-      "do_objectID": "9B3A5BCE-8988-4CA9-A9D6-FF717DDCE936",
+      "_class": "symbolInstance",
+      "do_objectID": "87A7F670-CE38-460C-93D6-8B2A0C9DCF48",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -278,12 +297,12 @@
       "isLocked": false,
       "isVisible": true,
       "layerListExpandedType": 0,
-      "name": "Artboard2",
+      "name": "MySymbol",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
-      "shouldBreakMaskChain": true,
+      "shouldBreakMaskChain": false,
       "exportOptions": {
         "_class": "exportOptions",
         "includedLayerIds": [],
@@ -303,7 +322,7 @@
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "9AB4C225-1BB3-46A4-A29F-DC1173050AD3",
+        "do_objectID": "6B8B42DB-7C7D-44CF-A9D5-A4B7BE46C662",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -338,132 +357,17 @@
         "innerShadows": [],
         "shadows": []
       },
-      "hasClickThrough": true,
-      "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
-      "layers": [
+      "horizontalSpacing": 0,
+      "scale": 1,
+      "symbolID": "3E70CDD1-36E1-4CD3-BD2A-F2580E27118F",
+      "verticalSpacing": 0,
+      "overrideValues": [
         {
-          "_class": "text",
-          "do_objectID": "E1535096-600D-4119-BDDF-9D1BFC8943F8",
-          "booleanOperation": -1,
-          "isFixedToViewport": false,
-          "isFlippedHorizontal": false,
-          "isFlippedVertical": false,
-          "isLocked": false,
-          "isVisible": true,
-          "layerListExpandedType": 0,
-          "name": "Back",
-          "nameIsFixed": false,
-          "resizingConstraint": 47,
-          "resizingType": 0,
-          "rotation": 0,
-          "shouldBreakMaskChain": false,
-          "exportOptions": {
-            "_class": "exportOptions",
-            "includedLayerIds": [],
-            "layerOptions": 0,
-            "shouldTrim": false,
-            "exportFormats": []
-          },
-          "flow": {
-            "_class": "MSImmutableFlowConnection",
-            "animationType": 1,
-            "destinationArtboardID": "back",
-            "maintainScrollPosition": false
-          },
-          "frame": {
-            "_class": "rect",
-            "constrainProportions": false,
-            "height": 14,
-            "width": 27,
-            "x": 0,
-            "y": 0
-          },
-          "clippingMaskMode": 0,
-          "hasClippingMask": false,
-          "style": {
-            "_class": "style",
-            "do_objectID": "94A80159-CDDB-4EE4-B4E8-B2EB03758EF2",
-            "endMarkerType": 0,
-            "miterLimit": 10,
-            "startMarkerType": 0,
-            "windingRule": 1,
-            "blur": {
-              "_class": "blur",
-              "isEnabled": false,
-              "center": "{0.5, 0.5}",
-              "motionAngle": 0,
-              "radius": 10,
-              "saturation": 1,
-              "type": 0
-            },
-            "borderOptions": {
-              "_class": "borderOptions",
-              "isEnabled": true,
-              "dashPattern": [],
-              "lineCapStyle": 0,
-              "lineJoinStyle": 0
-            },
-            "borders": [],
-            "colorControls": {
-              "_class": "colorControls",
-              "isEnabled": false,
-              "brightness": 0,
-              "contrast": 1,
-              "hue": 0,
-              "saturation": 1
-            },
-            "contextSettings": {
-              "_class": "graphicsContextSettings",
-              "blendMode": 0,
-              "opacity": 1
-            },
-            "fills": [],
-            "innerShadows": [],
-            "shadows": [],
-            "textStyle": {
-              "_class": "textStyle",
-              "encodedAttributes": {
-                "MSAttributedStringFontAttribute": {
-                  "_class": "fontDescriptor",
-                  "attributes": { "name": "Helvetica", "size": 12 }
-                }
-              },
-              "verticalAlignment": 0
-            }
-          },
-          "attributedString": {
-            "_class": "attributedString",
-            "string": "Back",
-            "attributes": [
-              {
-                "_class": "stringAttribute",
-                "location": 0,
-                "length": 4,
-                "attributes": {
-                  "MSAttributedStringFontAttribute": {
-                    "_class": "fontDescriptor",
-                    "attributes": { "name": "Helvetica", "size": 12 }
-                  }
-                }
-              }
-            ]
-          },
-          "automaticallyDrawOnUnderlyingPath": false,
-          "dontSynchroniseWithSymbol": false,
-          "glyphBounds": "{{0, 2}, {27, 10}}",
-          "lineSpacingBehaviour": 2,
-          "textBehaviour": 0
+          "_class": "overrideValue",
+          "overrideName": "66C73E37-1355-4135-A441-2DDB365F681E_stringValue",
+          "value": "Custom label"
         }
-      ],
-      "hasBackgroundColor": false,
-      "includeBackgroundColorInExport": true,
-      "includeInCloudUpload": true,
-      "isFlowHome": false,
-      "presetDictionary": {},
-      "resizesContent": false,
-      "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
-      "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
-      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
+      ]
     }
   ],
   "includeInCloudUpload": true,

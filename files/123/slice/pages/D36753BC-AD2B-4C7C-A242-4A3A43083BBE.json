@@ -1,6 +1,6 @@
 {
   "_class": "page",
-  "do_objectID": "66F0DB53-4470-4E84-B6C5-73AC74AEE242",
+  "do_objectID": "D36753BC-AD2B-4C7C-A242-4A3A43083BBE",
   "booleanOperation": -1,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -33,7 +33,7 @@
   "hasClippingMask": false,
   "style": {
     "_class": "style",
-    "do_objectID": "75A1F83A-8657-45E0-9018-BE77572DB95F",
+    "do_objectID": "CA19257D-D944-4025-B840-69C786DAC30E",
     "endMarkerType": 0,
     "miterLimit": 10,
     "startMarkerType": 0,
@@ -72,8 +72,8 @@
   "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
   "layers": [
     {
-      "_class": "symbolInstance",
-      "do_objectID": "72ACFABF-F38F-4025-BA1B-9C7BA3A94F15",
+      "_class": "artboard",
+      "do_objectID": "D222038D-8F79-483C-A865-F3ED9AB2D5E5",
       "booleanOperation": -1,
       "isFixedToViewport": false,
       "isFlippedHorizontal": false,
@@ -81,12 +81,12 @@
       "isLocked": false,
       "isVisible": true,
       "layerListExpandedType": 0,
-      "name": "instance",
+      "name": "MyArtboard",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
-      "shouldBreakMaskChain": false,
+      "shouldBreakMaskChain": true,
       "exportOptions": {
         "_class": "exportOptions",
         "includedLayerIds": [],
@@ -97,16 +97,16 @@
       "frame": {
         "_class": "rect",
         "constrainProportions": false,
-        "height": 58.45,
-        "width": 100,
+        "height": 200,
+        "width": 200,
         "x": 0,
-        "y": 100
+        "y": 0
       },
       "clippingMaskMode": 0,
       "hasClippingMask": false,
       "style": {
         "_class": "style",
-        "do_objectID": "E16FC5B6-5DE7-45F3-BA9A-AE8DCBDAA17C",
+        "do_objectID": "D265E505-934E-4607-8335-CA93205F6A7A",
         "endMarkerType": 0,
         "miterLimit": 10,
         "startMarkerType": 0,
@@ -141,17 +141,53 @@
         "innerShadows": [],
         "shadows": []
       },
-      "horizontalSpacing": 0,
-      "scale": 1,
-      "symbolID": "6B283493-07EA-4EF0-9808-C6147DD0E474",
-      "verticalSpacing": 0,
-      "overrideValues": [
+      "hasClickThrough": true,
+      "groupLayout": { "_class": "MSImmutableFreeformGroupLayout" },
+      "layers": [
         {
-          "_class": "overrideValue",
-          "overrideName": "5417000B-7D56-4E5B-BA63-A53208F78B49_stringValue",
-          "value": "My really long text goes here"
+          "_class": "slice",
+          "do_objectID": "C74B3946-55A9-4C95-ABB9-FE16D1AFF3D3",
+          "booleanOperation": -1,
+          "isFixedToViewport": false,
+          "isFlippedHorizontal": false,
+          "isFlippedVertical": false,
+          "isLocked": false,
+          "isVisible": true,
+          "layerListExpandedType": 0,
+          "name": "MySlice",
+          "nameIsFixed": false,
+          "resizingConstraint": 63,
+          "resizingType": 0,
+          "rotation": 0,
+          "shouldBreakMaskChain": false,
+          "exportOptions": {
+            "_class": "exportOptions",
+            "includedLayerIds": [],
+            "layerOptions": 0,
+            "shouldTrim": false,
+            "exportFormats": []
+          },
+          "frame": {
+            "_class": "rect",
+            "constrainProportions": false,
+            "height": 200,
+            "width": 200,
+            "x": 0,
+            "y": 0
+          },
+          "hasBackgroundColor": false,
+          "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 }
         }
-      ]
+      ],
+      "hasBackgroundColor": false,
+      "includeBackgroundColorInExport": true,
+      "includeInCloudUpload": true,
+      "isFlowHome": false,
+      "presetDictionary": {},
+      "resizesContent": false,
+      "backgroundColor": { "_class": "color", "alpha": 1, "blue": 1, "green": 1, "red": 1 },
+      "horizontalRulerData": { "_class": "rulerData", "base": 0, "guides": [] },
+      "verticalRulerData": { "_class": "rulerData", "base": 0, "guides": [] }
     }
   ],
   "includeInCloudUpload": true,
