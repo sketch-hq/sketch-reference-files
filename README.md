@@ -2,6 +2,10 @@
 
 > A store of automatically generated Sketch file JSON organised by document version and Sketch feature.
 
+---
+### ☝️ This project has been archived. More detailed information on Sketch document data structures can be found in the [Sketch file format specification](https://github.com/sketch-hq/sketch-file-format) and the corresponding [TypeScript types](https://github.com/sketch-hq/sketch-file-format-ts).
+---
+
 ## Overview
 
 Sketch documents are stored as ZIP archives containing JSON encoded data. The file format was
